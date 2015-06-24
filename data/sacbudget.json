@@ -1,0 +1,2488 @@
+{
+ "name": "Sacramento Budget 2015/16", 
+ "children": [
+  {
+   "name": "Mayor/Council or Charter Offices", 
+   "children": [
+    {
+     "name": "City Attorney", 
+     "children": [
+      {
+       "name": "City Attorney Division", 
+       "children": [
+        {
+         "amount2016": 7232749.0, 
+         "amount2015": 6715089.0, 
+         "name": "City Attorney Department", 
+         "change": 0.0770890751
+        }
+       ]
+      }
+     ]
+    }, 
+    {
+     "name": "City Clerk", 
+     "children": [
+      {
+       "name": "City Clerk Division", 
+       "children": [
+        {
+         "amount2016": 1493006.0, 
+         "amount2015": 1408518.0, 
+         "name": "City Clerk Operations", 
+         "change": 0.059983614
+        }
+       ]
+      }, 
+      {
+       "name": "Mayor-Council Operations Division", 
+       "children": [
+        {
+         "amount2016": 382766.0, 
+         "amount2015": 404871.0, 
+         "name": "Mayor Council Operations", 
+         "change": -0.0545976373
+        }
+       ]
+      }
+     ]
+    }, 
+    {
+     "name": "City Manager", 
+     "children": [
+      {
+       "name": "City Manager Division", 
+       "children": [
+        {
+         "amount2016": 2899010.0, 
+         "amount2015": 2392943.0, 
+         "name": "Executive Office", 
+         "change": 0.2114830984
+        }
+       ]
+      }, 
+      {
+       "name": "Media & Communications Division", 
+       "children": [
+        {
+         "amount2016": 291236.0, 
+         "amount2015": 328765.0, 
+         "name": "Media and Communications", 
+         "change": -0.1141514456
+        }
+       ]
+      }, 
+      {
+       "name": "Public Safety Accountability Division", 
+       "children": [
+        {
+         "amount2016": 171655.0, 
+         "amount2015": 175521.0, 
+         "name": "Public Safety Accountability", 
+         "change": -0.0220258545
+        }
+       ]
+      }
+     ]
+    }, 
+    {
+     "name": "City Treasurer", 
+     "children": [
+      {
+       "name": "City Treasurer Division", 
+       "children": [
+        {
+         "amount2016": 5885023.0, 
+         "amount2015": 4920024.0, 
+         "name": "City Treasurer Operations", 
+         "change": 0.1961370514
+        }
+       ]
+      }
+     ]
+    }, 
+    {
+     "name": "Mayor/Council", 
+     "children": [
+      {
+       "name": "City Council District 1", 
+       "children": [
+        {
+         "amount2016": 424193.0, 
+         "amount2015": 400000.0, 
+         "name": "Council District 1", 
+         "change": 0.0604825
+        }
+       ]
+      }, 
+      {
+       "name": "City Council District 2", 
+       "children": [
+        {
+         "amount2016": 424193.0, 
+         "amount2015": 400000.0, 
+         "name": "Council District 2", 
+         "change": 0.0604825
+        }
+       ]
+      }, 
+      {
+       "name": "City Council District 3", 
+       "children": [
+        {
+         "amount2016": 424193.0, 
+         "amount2015": 166666.0, 
+         "name": "Council District 3", 
+         "change": 1.5451681807
+        }
+       ]
+      }, 
+      {
+       "name": "City Council District 4", 
+       "children": [
+        {
+         "amount2016": 424193.0, 
+         "amount2015": 400000.0, 
+         "name": "Council District 4", 
+         "change": 0.0604825
+        }
+       ]
+      }, 
+      {
+       "name": "City Council District 5", 
+       "children": [
+        {
+         "amount2016": 424193.0, 
+         "amount2015": 400000.0, 
+         "name": "Council District 5", 
+         "change": 0.0604825
+        }
+       ]
+      }, 
+      {
+       "name": "City Council District 6", 
+       "children": [
+        {
+         "amount2016": 424193.0, 
+         "amount2015": 166667.0, 
+         "name": "Council District 6", 
+         "change": 1.5451529097
+        }
+       ]
+      }, 
+      {
+       "name": "City Council District 7", 
+       "children": [
+        {
+         "amount2016": 424193.0, 
+         "amount2015": 166665.0, 
+         "name": "Council District 7", 
+         "change": 1.5451834518
+        }
+       ]
+      }, 
+      {
+       "name": "City Council District 8", 
+       "children": [
+        {
+         "amount2016": 424193.0, 
+         "amount2015": 166666.0, 
+         "name": "Council District 8", 
+         "change": 1.5451681807
+        }
+       ]
+      }, 
+      {
+       "name": "Elections", 
+       "children": [
+        {
+         "amount2016": null, 
+         "amount2015": 933332.0, 
+         "name": "City-wide Elections", 
+         "change": null
+        }
+       ]
+      }, 
+      {
+       "name": "Independent Budget Analyst Division", 
+       "children": [
+        {
+         "amount2016": 446281.0, 
+         "amount2015": null, 
+         "name": "Independent Budget Analyst", 
+         "change": null
+        }
+       ]
+      }, 
+      {
+       "name": "Mayor Council Operations Division", 
+       "children": [
+        {
+         "amount2016": 0.0, 
+         "amount2015": 0.0, 
+         "name": "Council Operations", 
+         "change": null
+        }
+       ]
+      }, 
+      {
+       "name": "Office of the City Auditor Division", 
+       "children": [
+        {
+         "amount2016": 581313.0, 
+         "amount2015": 655336.0, 
+         "name": "Office of the City Auditor", 
+         "change": -0.1129542708
+        }
+       ]
+      }, 
+      {
+       "name": "Office of the Mayor", 
+       "children": [
+        {
+         "amount2016": 1164480.0, 
+         "amount2015": 939999.0, 
+         "name": "Mayor", 
+         "change": 0.2388098285
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "name": "Operating", 
+   "children": [
+    {
+     "name": "Community Development", 
+     "children": [
+      {
+       "name": "Administration Division", 
+       "children": [
+        {
+         "amount2016": 2613365.0, 
+         "amount2015": 2556015.0, 
+         "name": "Administrative Services", 
+         "change": 0.0224372705
+        }
+       ]
+      }, 
+      {
+       "name": "Building Division", 
+       "children": [
+        {
+         "amount2016": 11188236.0, 
+         "amount2015": 8665222.0, 
+         "name": "Building", 
+         "change": 0.2911655351
+        }, 
+        {
+         "amount2016": 3938226.0, 
+         "amount2015": 3197074.0, 
+         "name": "Building Plan Check", 
+         "change": 0.2318219722
+        }
+       ]
+      }, 
+      {
+       "name": "Code Enforcement Division", 
+       "children": [
+        {
+         "amount2016": 401872.0, 
+         "amount2015": 643285.0, 
+         "name": "Business Compliance Department", 
+         "change": -0.3752815626
+        }, 
+        {
+         "amount2016": 7173431.0, 
+         "amount2015": 7014100.0, 
+         "name": "Housing & Dangerous Buildings", 
+         "change": 0.0227158153
+        }, 
+        {
+         "amount2016": 4115973.0, 
+         "amount2015": 4975569.0, 
+         "name": "Neighborhood Code Compliance", 
+         "change": -0.1727633563
+        }, 
+        {
+         "amount2016": 2315332.0, 
+         "amount2015": 2292107.0, 
+         "name": "Rental Housing Inspection Program", 
+         "change": 0.0101325985
+        }
+       ]
+      }, 
+      {
+       "name": "Customer Service Division", 
+       "children": [
+        {
+         "amount2016": 2246938.0, 
+         "amount2015": 1407993.0, 
+         "name": "Customer Service", 
+         "change": 0.5958445816
+        }
+       ]
+      }, 
+      {
+       "name": "Planning Division", 
+       "children": [
+        {
+         "amount2016": 4532310.0, 
+         "amount2015": 2873587.0, 
+         "name": "Current Planning", 
+         "change": 0.5772308268
+        }, 
+        {
+         "amount2016": 563942.0, 
+         "amount2015": 751768.0, 
+         "name": "Long Range", 
+         "change": -0.2498456971
+        }, 
+        {
+         "amount2016": 0.0, 
+         "amount2015": 681463.0, 
+         "name": "Planning Design/Preservation", 
+         "change": -1.0
+        }, 
+        {
+         "amount2016": 211911.0, 
+         "amount2015": 207332.0, 
+         "name": "Planning Environmental", 
+         "change": 0.022085351
+        }, 
+        {
+         "amount2016": 894090.0, 
+         "amount2015": 867295.0, 
+         "name": "Zoning", 
+         "change": 0.0308949089
+        }
+       ]
+      }
+     ]
+    }, 
+    {
+     "name": "Convention and Cultural Services", 
+     "children": [
+      {
+       "name": "CCS Administration Division", 
+       "children": [
+        {
+         "amount2016": 1703298.0, 
+         "amount2015": 1548581.0, 
+         "name": "CCS Administration", 
+         "change": 0.0999088843
+        }, 
+        {
+         "amount2016": 90000.0, 
+         "amount2015": 90000.0, 
+         "name": "Contract Administration", 
+         "change": 0.0
+        }
+       ]
+      }, 
+      {
+       "name": "Center for Sacramento History Division", 
+       "children": [
+        {
+         "amount2016": 616188.0, 
+         "amount2015": 601086.0, 
+         "name": "Center for Sacramento History", 
+         "change": 0.0251245246
+        }
+       ]
+      }, 
+      {
+       "name": "Convention Center Complex Division", 
+       "children": [
+        {
+         "amount2016": 523188.0, 
+         "amount2015": 453306.0, 
+         "name": "Box Office", 
+         "change": 0.1541607656
+        }, 
+        {
+         "amount2016": 28396558.0, 
+         "amount2015": 26173403.0, 
+         "name": "Conv Ctr Admn/Events Svcs", 
+         "change": 0.0849394708
+        }, 
+        {
+         "amount2016": 3206738.0, 
+         "amount2015": 3307010.0, 
+         "name": "Conv Ctr Operational Admn", 
+         "change": -0.0303210453
+        }, 
+        {
+         "amount2016": 6631139.0, 
+         "amount2015": 6283258.0, 
+         "name": "Operations", 
+         "change": 0.0553663402
+        }
+       ]
+      }, 
+      {
+       "name": "Crocker Art Museum Division", 
+       "children": [
+        {
+         "amount2016": 1934148.0, 
+         "amount2015": 1797756.0, 
+         "name": "Crocker Art Museum", 
+         "change": 0.0758679153
+        }
+       ]
+      }, 
+      {
+       "name": "Fairytale Town Division", 
+       "children": [
+        {
+         "amount2016": 112245.0, 
+         "amount2015": 112245.0, 
+         "name": "Fairytale Town", 
+         "change": 0.0
+        }
+       ]
+      }, 
+      {
+       "name": "Metro Arts Commission Division", 
+       "children": [
+        {
+         "amount2016": 188853.0, 
+         "amount2015": 177930.0, 
+         "name": "Arts Education & Outreach", 
+         "change": 0.0613893104
+        }, 
+        {
+         "amount2016": 0.0, 
+         "amount2015": 0.0, 
+         "name": "Metro Arts-APP", 
+         "change": null
+        }, 
+        {
+         "amount2016": 386380.0, 
+         "amount2015": 540592.0, 
+         "name": "Metro Arts-Administration", 
+         "change": -0.2852650428
+        }, 
+        {
+         "amount2016": 54628.0, 
+         "amount2015": 40807.0, 
+         "name": "Metro Arts-Prog Contrib", 
+         "change": 0.3386918911
+        }
+       ]
+      }, 
+      {
+       "name": "Old City Cemetery Division", 
+       "children": [
+        {
+         "amount2016": 1883.0, 
+         "amount2015": null, 
+         "name": "City Cemetery", 
+         "change": null
+        }
+       ]
+      }, 
+      {
+       "name": "Old Sacramento Division", 
+       "children": [
+        {
+         "amount2016": 1890906.0, 
+         "amount2015": 1950236.0, 
+         "name": "Old Sacramento", 
+         "change": -0.0304219592
+        }
+       ]
+      }, 
+      {
+       "name": "Powerhouse Science Center Division", 
+       "children": [
+        {
+         "amount2016": 331745.0, 
+         "amount2015": 331745.0, 
+         "name": "Powerhouse Science Center", 
+         "change": 0.0
+        }
+       ]
+      }, 
+      {
+       "name": "Sacramento History  Museum Division", 
+       "children": [
+        {
+         "amount2016": 329938.0, 
+         "amount2015": 329938.0, 
+         "name": "Sacramento History Museum", 
+         "change": 0.0
+        }
+       ]
+      }, 
+      {
+       "name": "Sacramento Zoo Division", 
+       "children": [
+        {
+         "amount2016": 577637.0, 
+         "amount2015": 560644.0, 
+         "name": "Sacramento Zoo", 
+         "change": 0.0303097866
+        }
+       ]
+      }
+     ]
+    }, 
+    {
+     "name": "Economic Development", 
+     "children": [
+      {
+       "name": "Citywide Development Division", 
+       "children": [
+        {
+         "amount2016": 0.0, 
+         "amount2015": 2310742.0, 
+         "name": "Army Depot Utilities", 
+         "change": -1.0
+        }, 
+        {
+         "amount2016": 926270.0, 
+         "amount2015": 946996.0, 
+         "name": "Citywide Development", 
+         "change": -0.0218860481
+        }
+       ]
+      }, 
+      {
+       "name": "Downtown Development Division", 
+       "children": [
+        {
+         "amount2016": 1003420.0, 
+         "amount2015": 1055206.0, 
+         "name": "Downtown Development", 
+         "change": -0.0490766732
+        }
+       ]
+      }, 
+      {
+       "name": "Economic Development Administration Division", 
+       "children": [
+        {
+         "amount2016": 334143.0, 
+         "amount2015": 335134.0, 
+         "name": "Administration", 
+         "change": -0.0029570261
+        }
+       ]
+      }
+     ]
+    }, 
+    {
+     "name": "General Services", 
+     "children": [
+      {
+       "name": "311 Division", 
+       "children": [
+        {
+         "amount2016": 2074743.0, 
+         "amount2015": 1767278.0, 
+         "name": "Sacramento City 311", 
+         "change": 0.17397659
+        }
+       ]
+      }, 
+      {
+       "name": "Animal Care Services Division", 
+       "children": [
+        {
+         "amount2016": 2437421.0, 
+         "amount2015": 1971589.0, 
+         "name": "Animal Care / Shelter", 
+         "change": 0.2362723671
+        }, 
+        {
+         "amount2016": 1264694.0, 
+         "amount2015": 1135350.0, 
+         "name": "Animal Care Administration", 
+         "change": 0.1139243405
+        }, 
+        {
+         "amount2016": null, 
+         "amount2015": 0.0, 
+         "name": "Animal Care Customer Service", 
+         "change": null
+        }, 
+        {
+         "amount2016": null, 
+         "amount2015": 0.0, 
+         "name": "Animal Care Vet Clinic", 
+         "change": null
+        }, 
+        {
+         "amount2016": null, 
+         "amount2015": 0.0, 
+         "name": "Animal Care Volunteer/Outreach", 
+         "change": null
+        }, 
+        {
+         "amount2016": 996200.0, 
+         "amount2015": 934432.0, 
+         "name": "Animal Enforcement/Field Svcs", 
+         "change": 0.0661021883
+        }
+       ]
+      }, 
+      {
+       "name": "Facilities & Real Prop Mgmt Division", 
+       "children": [
+        {
+         "amount2016": -32413.0, 
+         "amount2015": 11006.0, 
+         "name": "Architecture & Engineering", 
+         "change": -3.9450299836
+        }, 
+        {
+         "amount2016": 472660.0, 
+         "amount2015": 398474.0, 
+         "name": "Business & Support Services", 
+         "change": 0.1861752586
+        }, 
+        {
+         "amount2016": 172370.0, 
+         "amount2015": 15575630.0, 
+         "name": "CAL EPA", 
+         "change": -0.9889333529
+        }, 
+        {
+         "amount2016": 53517.0, 
+         "amount2015": 46987.0, 
+         "name": "Central Services", 
+         "change": 0.13897461
+        }, 
+        {
+         "amount2016": null, 
+         "amount2015": 139844.0, 
+         "name": "Facilities Joint Use Ops", 
+         "change": null
+        }, 
+        {
+         "amount2016": 846.0, 
+         "amount2015": 0.0, 
+         "name": "Facilities Planning", 
+         "change": null
+        }, 
+        {
+         "amount2016": 4059310.0, 
+         "amount2015": 4324197.0, 
+         "name": "Facility Maintenance", 
+         "change": -0.0612569224
+        }, 
+        {
+         "amount2016": 323123.0, 
+         "amount2015": 318905.0, 
+         "name": "Real Estate/Asset Management", 
+         "change": 0.0132265095
+        }
+       ]
+      }, 
+      {
+       "name": "Fleet Management Division", 
+       "children": [
+        {
+         "amount2016": 203701.0, 
+         "amount2015": 279799.0, 
+         "name": "24th St Building Maintenance", 
+         "change": -0.2719738098
+        }, 
+        {
+         "amount2016": 2302734.0, 
+         "amount2015": 2058140.0, 
+         "name": "24th Street Fleet Maintenance", 
+         "change": 0.1188422556
+        }, 
+        {
+         "amount2016": 70672573.0, 
+         "amount2015": 67774697.0, 
+         "name": "Fleet Management Admin", 
+         "change": 0.042757491
+        }, 
+        {
+         "amount2016": 256605.0, 
+         "amount2015": 376863.0, 
+         "name": "Kinney Fleet Maintenance", 
+         "change": -0.3191026978
+        }, 
+        {
+         "amount2016": 2245586.0, 
+         "amount2015": 2146772.0, 
+         "name": "Meadowview Fleet Maintenance", 
+         "change": 0.0460291079
+        }, 
+        {
+         "amount2016": 2600.0, 
+         "amount2015": 2600.0, 
+         "name": "Motor Pool / Equipment Share", 
+         "change": 0.0
+        }, 
+        {
+         "amount2016": 1127742.0, 
+         "amount2015": 1120779.0, 
+         "name": "North Area Fleet Maintenance F", 
+         "change": 0.0062126432
+        }, 
+        {
+         "amount2016": 367494.0, 
+         "amount2015": 472969.0, 
+         "name": "Rooney Fleet Maintenance", 
+         "change": -0.223006159
+        }
+       ]
+      }, 
+      {
+       "name": "Office of the Director Division", 
+       "children": [
+        {
+         "amount2016": 122881.0, 
+         "amount2015": 122881.0, 
+         "name": "Department-Wide Technology", 
+         "change": 0.0
+        }, 
+        {
+         "amount2016": 1464237.0, 
+         "amount2015": 920276.0, 
+         "name": "Office of the Director - DGS", 
+         "change": 0.5910846311
+        }
+       ]
+      }, 
+      {
+       "name": "Solid Waste and Recycling Division", 
+       "children": [
+        {
+         "amount2016": 1054305.0, 
+         "amount2015": 764808.0, 
+         "name": "Container Maintenance", 
+         "change": 0.3785224527
+        }, 
+        {
+         "amount2016": 20511919.0, 
+         "amount2015": 19611767.0, 
+         "name": "Containerized Greenwaste", 
+         "change": 0.0458985669
+        }, 
+        {
+         "amount2016": 594384.0, 
+         "amount2015": 673753.0, 
+         "name": "Household Hazardous Waste", 
+         "change": -0.1178013308
+        }, 
+        {
+         "amount2016": 562684.0, 
+         "amount2015": 385220.0, 
+         "name": "Illegal Dumping Collection", 
+         "change": 0.4606822076
+        }, 
+        {
+         "amount2016": 871348.0, 
+         "amount2015": 581331.0, 
+         "name": "Landfill Operations", 
+         "change": 0.4988844565
+        }, 
+        {
+         "amount2016": 4514486.0, 
+         "amount2015": 5192845.0, 
+         "name": "Loose in Street Greenwaste", 
+         "change": -0.1306334004
+        }, 
+        {
+         "amount2016": 47625117.0, 
+         "amount2015": 45791112.0, 
+         "name": "Residential Collection", 
+         "change": 0.0400515497
+        }, 
+        {
+         "amount2016": 12883278.0, 
+         "amount2015": 12385242.0, 
+         "name": "Residential Recycling", 
+         "change": 0.0402120524
+        }, 
+        {
+         "amount2016": 18441563.0, 
+         "amount2015": 17794481.0, 
+         "name": "SW Fund Level Programs", 
+         "change": 0.0363641963
+        }, 
+        {
+         "amount2016": 3158442.0, 
+         "amount2015": 2914868.0, 
+         "name": "Solid Waste Admin Services", 
+         "change": 0.0835626176
+        }, 
+        {
+         "amount2016": 3561208.0, 
+         "amount2015": 3291534.0, 
+         "name": "Street Sweeping", 
+         "change": 0.0819295806
+        }
+       ]
+      }
+     ]
+    }, 
+    {
+     "name": "Parks and Recreation", 
+     "children": [
+      {
+       "name": "4th R Division", 
+       "children": [
+        {
+         "amount2016": 10578083.0, 
+         "amount2015": 11636081.0, 
+         "name": "4th R", 
+         "change": -0.0909239116
+        }
+       ]
+      }, 
+      {
+       "name": "Administrative Services Division", 
+       "children": [
+        {
+         "amount2016": 927841.0, 
+         "amount2015": 851545.0, 
+         "name": "Fiscal and Management Services", 
+         "change": 0.089597144
+        }, 
+        {
+         "amount2016": 1584661.0, 
+         "amount2015": 1579220.0, 
+         "name": "Golf Admin", 
+         "change": 0.0034453718
+        }, 
+        {
+         "amount2016": 516057.0, 
+         "amount2015": 486836.0, 
+         "name": "Technology Service", 
+         "change": 0.0600222662
+        }, 
+        {
+         "amount2016": 135107.0, 
+         "amount2015": 122466.0, 
+         "name": "Wm. Land Park Golf Course", 
+         "change": 0.1032204857
+        }
+       ]
+      }, 
+      {
+       "name": "Neighborhood Services Division", 
+       "children": [
+        {
+         "amount2016": 694454.0, 
+         "amount2015": 2170353.0, 
+         "name": "Neighborhood Services", 
+         "change": -0.6800271661
+        }
+       ]
+      }, 
+      {
+       "name": "Park Operations Division", 
+       "children": [
+        {
+         "amount2016": 214574.0, 
+         "amount2015": 190536.0, 
+         "name": "Historic City Cemetery", 
+         "change": 0.1261598858
+        }, 
+        {
+         "amount2016": 11841784.0, 
+         "amount2015": 11771318.0, 
+         "name": "Park Operations Administration", 
+         "change": 0.0059862456
+        }
+       ]
+      }, 
+      {
+       "name": "Park Planning and Development Division", 
+       "children": [
+        {
+         "amount2016": 221231.0, 
+         "amount2015": -47070.0, 
+         "name": "Park Development Services", 
+         "change": -5.7000424899
+        }
+       ]
+      }, 
+      {
+       "name": "Recreation Operations Division", 
+       "children": [
+        {
+         "amount2016": 425820.0, 
+         "amount2015": 409590.0, 
+         "name": "Access Leisure", 
+         "change": 0.0396249908
+        }, 
+        {
+         "amount2016": 1555962.0, 
+         "amount2015": 1599452.0, 
+         "name": "Aquatics", 
+         "change": -0.0271905628
+        }, 
+        {
+         "amount2016": 1232664.0, 
+         "amount2015": 921153.0, 
+         "name": "Camp Sacramento", 
+         "change": 0.3381750914
+        }, 
+        {
+         "amount2016": 47265.0, 
+         "amount2015": 12265.0, 
+         "name": "Children's Services", 
+         "change": 2.8536485936
+        }, 
+        {
+         "amount2016": 2841366.0, 
+         "amount2015": 2784231.0, 
+         "name": "Community Centers", 
+         "change": 0.0205209266
+        }, 
+        {
+         "amount2016": 1076592.0, 
+         "amount2015": 1059722.0, 
+         "name": "Community Recreation Services", 
+         "change": 0.0159192694
+        }, 
+        {
+         "amount2016": null, 
+         "amount2015": 0.0, 
+         "name": "Cover The Kids", 
+         "change": null
+        }, 
+        {
+         "amount2016": 0.0, 
+         "amount2015": 193649.0, 
+         "name": "Crossing Guards", 
+         "change": -1.0
+        }, 
+        {
+         "amount2016": 1463552.0, 
+         "amount2015": 1667887.0, 
+         "name": "Older Adult Services", 
+         "change": -0.1225112972
+        }, 
+        {
+         "amount2016": 1116876.0, 
+         "amount2015": 1066015.0, 
+         "name": "Park Safety Services", 
+         "change": 0.0477113361
+        }, 
+        {
+         "amount2016": 1591240.0, 
+         "amount2015": null, 
+         "name": "Permitting and Events", 
+         "change": null
+        }, 
+        {
+         "amount2016": -198814.0, 
+         "amount2015": 655972.0, 
+         "name": "Recreation Administration", 
+         "change": -1.3030830584
+        }, 
+        {
+         "amount2016": 910837.0, 
+         "amount2015": 830661.0, 
+         "name": "Teen Services", 
+         "change": 0.0965207227
+        }, 
+        {
+         "amount2016": 805799.0, 
+         "amount2015": 692733.0, 
+         "name": "Youth Employment Services", 
+         "change": 0.1632172857
+        }
+       ]
+      }, 
+      {
+       "name": "START Division", 
+       "children": [
+        {
+         "amount2016": 3938921.0, 
+         "amount2015": 9354258.0, 
+         "name": "START", 
+         "change": -0.5789167885
+        }
+       ]
+      }
+     ]
+    }, 
+    {
+     "name": "Public Works", 
+     "children": [
+      {
+       "name": "Engineering Services Division - Public Works", 
+       "children": [
+        {
+         "amount2016": -213699.0, 
+         "amount2015": 93456.0, 
+         "name": "Civil & Electrical Design", 
+         "change": -3.2866268618
+        }, 
+        {
+         "amount2016": -872962.0, 
+         "amount2015": -1155605.0, 
+         "name": "Construction Inspect & Survey", 
+         "change": -0.2445844385
+        }, 
+        {
+         "amount2016": 20762.0, 
+         "amount2015": 67950.0, 
+         "name": "Development Engineering", 
+         "change": -0.6944518028
+        }, 
+        {
+         "amount2016": 912207.0, 
+         "amount2015": 812346.0, 
+         "name": "Engineering Services Admin", 
+         "change": 0.122929146
+        }, 
+        {
+         "amount2016": -39343.0, 
+         "amount2015": -39729.0, 
+         "name": "Funding & Project Development", 
+         "change": -0.0097158247
+        }
+       ]
+      }, 
+      {
+       "name": "Maintenance Services Division", 
+       "children": [
+        {
+         "amount2016": 2036535.0, 
+         "amount2015": 1925708.0, 
+         "name": "Admin & Advanced Planning", 
+         "change": 0.0575513006
+        }, 
+        {
+         "amount2016": 4357085.0, 
+         "amount2015": 4288321.0, 
+         "name": "Concrete Maintenance", 
+         "change": 0.0160351802
+        }, 
+        {
+         "amount2016": -195035.0, 
+         "amount2015": -207928.0, 
+         "name": "In-Source Concrete", 
+         "change": -0.0620070409
+        }, 
+        {
+         "amount2016": 7007473.0, 
+         "amount2015": 6564450.0, 
+         "name": "Pavement Maintenance", 
+         "change": 0.067488213
+        }, 
+        {
+         "amount2016": 3546879.0, 
+         "amount2015": 3541901.0, 
+         "name": "Streetscape Maintenance", 
+         "change": 0.0014054599
+        }, 
+        {
+         "amount2016": 5280855.0, 
+         "amount2015": 5216473.0, 
+         "name": "Urban Forestry", 
+         "change": 0.0123420556
+        }
+       ]
+      }, 
+      {
+       "name": "Marina Division", 
+       "children": [
+        {
+         "amount2016": 2044571.0, 
+         "amount2015": 1992877.0, 
+         "name": "Sac Marina", 
+         "change": 0.0259393831
+        }
+       ]
+      }, 
+      {
+       "name": "Office of the Director - Public Works", 
+       "children": [
+        {
+         "amount2016": 749284.0, 
+         "amount2015": 99284.0, 
+         "name": "Office of the Public Works Director", 
+         "change": 6.5468756295
+        }, 
+        {
+         "amount2016": 255.0, 
+         "amount2015": 743.0, 
+         "name": "Planning & Policy", 
+         "change": -0.6567967699
+        }, 
+        {
+         "amount2016": 160850.0, 
+         "amount2015": 160850.0, 
+         "name": "Planning & Resources", 
+         "change": 0.0
+        }, 
+        {
+         "amount2016": 1573179.0, 
+         "amount2015": 1358564.0, 
+         "name": "Public Works Business Operations", 
+         "change": 0.1579719468
+        }
+       ]
+      }, 
+      {
+       "name": "Parking Services Division", 
+       "children": [
+        {
+         "amount2016": 1114029.0, 
+         "amount2015": 1114029.0, 
+         "name": "293 Lot (5th & I Street)", 
+         "change": 0.0
+        }, 
+        {
+         "amount2016": 4182736.0, 
+         "amount2015": 3859463.0, 
+         "name": "Capitol Garage", 
+         "change": 0.0837611346
+        }, 
+        {
+         "amount2016": 3987987.0, 
+         "amount2015": 3850252.0, 
+         "name": "City Hall Garage", 
+         "change": 0.0357729832
+        }, 
+        {
+         "amount2016": 25976.0, 
+         "amount2015": 4189418.0, 
+         "name": "Downtown Plaza East Gar", 
+         "change": -0.9937996161
+        }, 
+        {
+         "amount2016": 4863.0, 
+         "amount2015": 3219615.0, 
+         "name": "Downtown Plaza West Gar", 
+         "change": -0.998489571
+        }, 
+        {
+         "amount2016": 3727601.0, 
+         "amount2015": null, 
+         "name": "Managed Parking Facilities", 
+         "change": null
+        }, 
+        {
+         "amount2016": 2586948.0, 
+         "amount2015": 2399921.0, 
+         "name": "Memorial Garage", 
+         "change": 0.0779304819
+        }, 
+        {
+         "amount2016": 4304780.0, 
+         "amount2015": 3377248.0, 
+         "name": "Off-Street Parking Admin", 
+         "change": 0.2746413648
+        }, 
+        {
+         "amount2016": 1248440.0, 
+         "amount2015": 1185380.0, 
+         "name": "Off-Street Parking Attendants", 
+         "change": 0.0531981306
+        }, 
+        {
+         "amount2016": 608749.0, 
+         "amount2015": 570855.0, 
+         "name": "Off-Street Relief Pool", 
+         "change": 0.0663811301
+        }, 
+        {
+         "amount2016": 3073986.0, 
+         "amount2015": 2443141.0, 
+         "name": "Old Sacramento Garage", 
+         "change": 0.2582106395
+        }, 
+        {
+         "amount2016": 656270.0, 
+         "amount2015": 646169.0, 
+         "name": "On-Street Parking Admin", 
+         "change": 0.0156321334
+        }, 
+        {
+         "amount2016": 14457043.0, 
+         "amount2015": 14053247.0, 
+         "name": "Parking Enforcement", 
+         "change": 0.0287332885
+        }, 
+        {
+         "amount2016": 5906080.0, 
+         "amount2015": 5898821.0, 
+         "name": "Parking Meter Collections", 
+         "change": 0.0012305849
+        }, 
+        {
+         "amount2016": 968311.0, 
+         "amount2015": 926611.0, 
+         "name": "Public Works Facility Maintenance", 
+         "change": 0.0450027034
+        }, 
+        {
+         "amount2016": 0.0, 
+         "amount2015": 269067.0, 
+         "name": "Surface Lot D", 
+         "change": -1.0
+        }, 
+        {
+         "amount2016": 129593.0, 
+         "amount2015": 129593.0, 
+         "name": "Surface Lot X", 
+         "change": 0.0
+        }, 
+        {
+         "amount2016": 36627.0, 
+         "amount2015": 36627.0, 
+         "name": "Surface Lot Y", 
+         "change": 0.0
+        }, 
+        {
+         "amount2016": 2004156.0, 
+         "amount2015": 1812232.0, 
+         "name": "Tower Bridge Garage", 
+         "change": 0.1059047627
+        }
+       ]
+      }, 
+      {
+       "name": "Transportation Division", 
+       "children": [
+        {
+         "amount2016": 3947815.0, 
+         "amount2015": 3763693.0, 
+         "name": "Street Lights Department", 
+         "change": 0.0489205682
+        }, 
+        {
+         "amount2016": 1964306.0, 
+         "amount2015": 2183235.0, 
+         "name": "Traffic Engineering", 
+         "change": -0.1002773407
+        }, 
+        {
+         "amount2016": 1315705.0, 
+         "amount2015": 1427689.0, 
+         "name": "Traffic Signals Department", 
+         "change": -0.0784372507
+        }, 
+        {
+         "amount2016": 1815020.0, 
+         "amount2015": 1800107.0, 
+         "name": "Traffic Signs and  Markings", 
+         "change": 0.0082845075
+        }
+       ]
+      }
+     ]
+    }, 
+    {
+     "name": "Utilities", 
+     "children": [
+      {
+       "name": "Business & Integrated Planning Division", 
+       "children": [
+        {
+         "amount2016": 2937220.0, 
+         "amount2015": 2955744.0, 
+         "name": "Account Management", 
+         "change": -0.0062671192
+        }, 
+        {
+         "amount2016": 203301.0, 
+         "amount2015": 240756.0, 
+         "name": "Business & Integrated Planning Administration", 
+         "change": -0.1555724468
+        }, 
+        {
+         "amount2016": 1010104.0, 
+         "amount2015": 993944.0, 
+         "name": "Employee and Administrative Services", 
+         "change": 0.0162584612
+        }, 
+        {
+         "amount2016": 163876874.0, 
+         "amount2015": 163528748.0, 
+         "name": "Fiscal and Administration Svcs", 
+         "change": 0.0021288367
+        }, 
+        {
+         "amount2016": 1142275.0, 
+         "amount2015": 1114620.0, 
+         "name": "Integrated Planning and Asset Mgmt", 
+         "change": 0.0248111464
+        }, 
+        {
+         "amount2016": 1817109.0, 
+         "amount2015": 1692625.0, 
+         "name": "Utilities Customer Service", 
+         "change": 0.0735449376
+        }
+       ]
+      }, 
+      {
+       "name": "Engineering  & Water Services Division", 
+       "children": [
+        {
+         "amount2016": 446166.0, 
+         "amount2015": 569571.0, 
+         "name": "Cip Engineering", 
+         "change": -0.2166630675
+        }, 
+        {
+         "amount2016": 1772397.0, 
+         "amount2015": 2465092.0, 
+         "name": "DOU Information Technology", 
+         "change": -0.2810016827
+        }, 
+        {
+         "amount2016": 1083759.0, 
+         "amount2015": 1146952.0, 
+         "name": "Development Services", 
+         "change": -0.0550964644
+        }, 
+        {
+         "amount2016": 3615021.0, 
+         "amount2015": 3251371.0, 
+         "name": "Electrical & Instrumentation", 
+         "change": 0.1118451263
+        }, 
+        {
+         "amount2016": 853101.0, 
+         "amount2015": 734335.0, 
+         "name": "Engineering Administration", 
+         "change": 0.1617327242
+        }, 
+        {
+         "amount2016": 665356.0, 
+         "amount2015": 593828.0, 
+         "name": "Information System Management", 
+         "change": 0.1204523869
+        }, 
+        {
+         "amount2016": 1460600.0, 
+         "amount2015": null, 
+         "name": "Supervisory Control and Data Acquisition (SCADA)", 
+         "change": null
+        }, 
+        {
+         "amount2016": 1641129.0, 
+         "amount2015": 1091000.0, 
+         "name": "Water Conservation", 
+         "change": 0.5042428964
+        }, 
+        {
+         "amount2016": 1179185.0, 
+         "amount2015": 1375949.0, 
+         "name": "Water Quality Engineering", 
+         "change": -0.1430023933
+        }, 
+        {
+         "amount2016": 1498237.0, 
+         "amount2015": 1422249.0, 
+         "name": "Water Quality Lab and R&D", 
+         "change": 0.0534280565
+        }
+       ]
+      }, 
+      {
+       "name": "Office of the Director - DOU", 
+       "children": [
+        {
+         "amount2016": 819290.0, 
+         "amount2015": 829302.0, 
+         "name": "Department Administration", 
+         "change": -0.0120728034
+        }, 
+        {
+         "amount2016": 41669972.0, 
+         "amount2015": 43372518.0, 
+         "name": "Fund Level Programs", 
+         "change": -0.0392540272
+        }, 
+        {
+         "amount2016": 748947.0, 
+         "amount2015": 743583.0, 
+         "name": "Government Affairs - Utilities", 
+         "change": 0.0072137206
+        }, 
+        {
+         "amount2016": 471394.0, 
+         "amount2015": 464113.0, 
+         "name": "Metropolitan Water Planning", 
+         "change": 0.0156879898
+        }, 
+        {
+         "amount2016": 892570.0, 
+         "amount2015": 822040.0, 
+         "name": "Public Education Outreach", 
+         "change": 0.0857987446
+        }
+       ]
+      }, 
+      {
+       "name": "Operations & Maintenance Division", 
+       "children": [
+        {
+         "amount2016": 6952421.0, 
+         "amount2015": 6810554.0, 
+         "name": "Drainage Collection", 
+         "change": 0.020830464
+        }, 
+        {
+         "amount2016": 2790561.0, 
+         "amount2015": 2252300.0, 
+         "name": "Drainage Maintenance", 
+         "change": 0.2389828176
+        }, 
+        {
+         "amount2016": 5088585.0, 
+         "amount2015": 4502457.0, 
+         "name": "Drainage Operations", 
+         "change": 0.1301795886
+        }, 
+        {
+         "amount2016": 826935.0, 
+         "amount2015": 1004908.0, 
+         "name": "OSM Generator Support", 
+         "change": -0.1771037747
+        }, 
+        {
+         "amount2016": 2096858.0, 
+         "amount2015": 1950325.0, 
+         "name": "Plant Svcs Administration", 
+         "change": 0.0751326061
+        }, 
+        {
+         "amount2016": 1025874.0, 
+         "amount2015": 931814.0, 
+         "name": "Usa Program", 
+         "change": 0.100942892
+        }, 
+        {
+         "amount2016": 1238054.0, 
+         "amount2015": 1104852.0, 
+         "name": "Utilities Field Services Administration", 
+         "change": 0.1205609439
+        }, 
+        {
+         "amount2016": 9195207.0, 
+         "amount2015": 8772297.0, 
+         "name": "Wastewater Collection", 
+         "change": 0.048209722
+        }, 
+        {
+         "amount2016": 984286.0, 
+         "amount2015": 982627.0, 
+         "name": "Wastewater Maintenance", 
+         "change": 0.0016883314
+        }, 
+        {
+         "amount2016": 999397.0, 
+         "amount2015": 952301.0, 
+         "name": "Wastewater Operations", 
+         "change": 0.0494549517
+        }, 
+        {
+         "amount2016": 12230104.0, 
+         "amount2015": 11896513.0, 
+         "name": "Water Distribution", 
+         "change": 0.0280410739
+        }, 
+        {
+         "amount2016": 2461979.0, 
+         "amount2015": 2450768.0, 
+         "name": "Water Production Maintenance", 
+         "change": 0.0045744844
+        }, 
+        {
+         "amount2016": 11561276.0, 
+         "amount2015": 11837101.0, 
+         "name": "Water Production Operations", 
+         "change": -0.0233017358
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "name": "Other", 
+   "children": [
+    {
+     "name": "Citywide and Community Support", 
+     "children": [
+      {
+       "name": "Citywide Support Division", 
+       "children": [
+        {
+         "amount2016": 400000.0, 
+         "amount2015": 500000.0, 
+         "name": "Citywide Elections", 
+         "change": -0.2
+        }, 
+        {
+         "amount2016": 1800000.0, 
+         "amount2015": 1881301.0, 
+         "name": "Citywide IT Maintenance & Supp", 
+         "change": -0.0432153069
+        }, 
+        {
+         "amount2016": 50000.0, 
+         "amount2015": 100000.0, 
+         "name": "Citywide Litigation", 
+         "change": -0.5
+        }, 
+        {
+         "amount2016": 2450000.0, 
+         "amount2015": 2810000.0, 
+         "name": "Citywide MultiTenant Operations", 
+         "change": -0.128113879
+        }, 
+        {
+         "amount2016": 4402639.0, 
+         "amount2015": 3193182.0, 
+         "name": "Employee Development", 
+         "change": 0.378762313
+        }, 
+        {
+         "amount2016": 11014393.0, 
+         "amount2015": 10288618.0, 
+         "name": "Gen Insurance/Termination", 
+         "change": 0.0705415441
+        }, 
+        {
+         "amount2016": 4164000.0, 
+         "amount2015": 4376000.0, 
+         "name": "Investment Income", 
+         "change": -0.0484460695
+        }, 
+        {
+         "amount2016": 39545860.0, 
+         "amount2015": 32509124.0, 
+         "name": "MYOP Funding", 
+         "change": 0.2164541868
+        }, 
+        {
+         "amount2016": 1182000.0, 
+         "amount2015": 1476000.0, 
+         "name": "Other Program Support", 
+         "change": -0.1991869919
+        }, 
+        {
+         "amount2016": 610000.0, 
+         "amount2015": 697500.0, 
+         "name": "Successor Agency", 
+         "change": -0.1254480287
+        }
+       ]
+      }, 
+      {
+       "name": "Community Support Division", 
+       "children": [
+        {
+         "amount2016": 949758.0, 
+         "amount2015": 527758.0, 
+         "name": "Arts Stabilization", 
+         "change": 0.7996089117
+        }, 
+        {
+         "amount2016": 3283137.0, 
+         "amount2015": 3307198.0, 
+         "name": "CCOMWP", 
+         "change": -0.0072753431
+        }, 
+        {
+         "amount2016": 2732259.0, 
+         "amount2015": 2717659.0, 
+         "name": "Community Programs", 
+         "change": 0.0053722708
+        }, 
+        {
+         "amount2016": 0.0, 
+         "amount2015": -1.0, 
+         "name": "LAFCo", 
+         "change": -1.0
+        }, 
+        {
+         "amount2016": 22084520.0, 
+         "amount2015": 17697338.0, 
+         "name": "Library JPA", 
+         "change": 0.247900673
+        }, 
+        {
+         "amount2016": 734400.0, 
+         "amount2015": 0.0, 
+         "name": "Rental of Real Property", 
+         "change": null
+        }, 
+        {
+         "amount2016": 0.0, 
+         "amount2015": 0.0, 
+         "name": "SAFCA", 
+         "change": null
+        }, 
+        {
+         "amount2016": 17636934.0, 
+         "amount2015": 18729070.0, 
+         "name": "Special/Business Districts", 
+         "change": -0.0583123455
+        }, 
+        {
+         "amount2016": 15000.0, 
+         "amount2015": 20000.0, 
+         "name": "Utility Users Tax Rebate", 
+         "change": -0.25
+        }
+       ]
+      }, 
+      {
+       "name": "County Property Taxes & Charges", 
+       "children": [
+        {
+         "amount2016": 2450000.0, 
+         "amount2015": 2700000.0, 
+         "name": "Sacramento County Charges", 
+         "change": -0.0925925926
+        }
+       ]
+      }, 
+      {
+       "name": "Fund Contingency Division", 
+       "children": [
+        {
+         "amount2016": 1000000.0, 
+         "amount2015": 2400000.0, 
+         "name": "Administrative Contingency", 
+         "change": -0.5833333333
+        }
+       ]
+      }, 
+      {
+       "name": "Major Tax Revenues Division", 
+       "children": [
+        {
+         "amount2016": 335419159.0, 
+         "amount2015": 325424294.0, 
+         "name": "Major Tax Revenues DeptID", 
+         "change": 0.0307133339
+        }, 
+        {
+         "amount2016": 50109809.0, 
+         "amount2015": 39684736.0, 
+         "name": "Other Major Tax Revenues", 
+         "change": 0.2626973
+        }
+       ]
+      }, 
+      {
+       "name": "Retired/Transfer Emp Benefit 1530", 
+       "children": [
+        {
+         "amount2016": 20664360.0, 
+         "amount2015": 20402000.0, 
+         "name": "Retired/Transfer Emp Benef", 
+         "change": 0.0128595236
+        }
+       ]
+      }
+     ]
+    }, 
+    {
+     "name": "Debt Service", 
+     "children": [
+      {
+       "name": "2013 Debt Service Water Revenues", 
+       "children": [
+        {
+         "amount2016": 14016625.0, 
+         "amount2015": 14011250.0, 
+         "name": "Debt Service 2013 Water Revenues", 
+         "change": 0.0003836203
+        }
+       ]
+      }, 
+      {
+       "name": "2013 Wastewater Revenue Bonds", 
+       "children": [
+        {
+         "amount2016": 1955431.0, 
+         "amount2015": 1403831.0, 
+         "name": "Debt Service 2013 Wastewater Rev Bonds", 
+         "change": 0.3929247894
+        }
+       ]
+      }, 
+      {
+       "name": "2014 ESC Lease Revenue Bonds Division", 
+       "children": [
+        {
+         "amount2016": 0.0, 
+         "amount2015": null, 
+         "name": "Debt Service 2014 ESC Lease Revenue Bonds", 
+         "change": null
+        }
+       ]
+      }, 
+      {
+       "name": "Debt Serv-02 Ref Cop and 91pf 1131 Division", 
+       "children": [
+        {
+         "amount2016": 3436942.0, 
+         "amount2015": 3436939.0, 
+         "name": "Debt Svc-State Revol", 
+         "change": 8.729e-07
+        }
+       ]
+      }, 
+      {
+       "name": "Debt Service - 2005 Refunding Division", 
+       "children": [
+        {
+         "amount2016": 2755469.0, 
+         "amount2015": 2637126.0, 
+         "name": "Debt Service-2003 Cirbs", 
+         "change": 0.0448757473
+        }, 
+        {
+         "amount2016": 24102440.0, 
+         "amount2015": 23203065.0, 
+         "name": "Debt Service-2005 Refunding", 
+         "change": 0.038761043
+        }
+       ]
+      }, 
+      {
+       "name": "Debt Service-2006 Cirbs Ser B Division", 
+       "children": [
+        {
+         "amount2016": 5168457.0, 
+         "amount2015": 5081506.0, 
+         "name": "Debt Service-2006 Cirbs Ser B", 
+         "change": 0.0171112658
+        }
+       ]
+      }, 
+      {
+       "name": "Debt Service-2006 Cirbs Ser D Division", 
+       "children": [
+        {
+         "amount2016": 1277800.0, 
+         "amount2015": 1277800.0, 
+         "name": "Debt Service-2006 Cirbs Ser C", 
+         "change": 0.0
+        }, 
+        {
+         "amount2016": 727183.0, 
+         "amount2015": 726626.0, 
+         "name": "Debt Service-2006 Cirbs Ser D", 
+         "change": 0.0007665567
+        }, 
+        {
+         "amount2016": 9191166.0, 
+         "amount2015": 9191166.0, 
+         "name": "Debt Service-2006 Cirbs Ser E", 
+         "change": 0.0
+        }
+       ]
+      }, 
+      {
+       "name": "Debt Service-Dbw (Docks) Division", 
+       "children": [
+        {
+         "amount2016": 205198.0, 
+         "amount2015": 205198.0, 
+         "name": "Debt Service-DB&W (Docks)", 
+         "change": 0.0
+        }
+       ]
+      }, 
+      {
+       "name": "Debt Service-Miscellaneous Division", 
+       "children": [
+        {
+         "amount2016": 9167380.0, 
+         "amount2015": 9180535.0, 
+         "name": "Debt Service 93 Series A", 
+         "change": -0.001432923
+        }, 
+        {
+         "amount2016": 6270555.0, 
+         "amount2015": 6287635.0, 
+         "name": "Debt Service 93 Series B", 
+         "change": -0.0027164427
+        }, 
+        {
+         "amount2016": 9034836.0, 
+         "amount2015": 9041313.0, 
+         "name": "Debt Service-2006 Cirbs Ser A", 
+         "change": -0.0007163783
+        }, 
+        {
+         "amount2016": 3307169.0, 
+         "amount2015": 3246982.0, 
+         "name": "Debt Service-Miscellaneous", 
+         "change": 0.01853629
+        }, 
+        {
+         "amount2016": 5205771.0, 
+         "amount2015": 5389602.0, 
+         "name": "Debt Svc-Financing Leases", 
+         "change": -0.0341084555
+        }
+       ]
+      }, 
+      {
+       "name": "Debt Svc-2002 Cirb 1131 Division", 
+       "children": [
+        {
+         "amount2016": 399344.0, 
+         "amount2015": 1313340.0, 
+         "name": "Debt Svc-2002 Cirb 1131", 
+         "change": -0.695932508
+        }
+       ]
+      }, 
+      {
+       "name": "Kings and Arco Arena 1131 Division", 
+       "children": [
+        {
+         "amount2016": 11535958.0, 
+         "amount2015": 11198604.0, 
+         "name": "Debt Service-Kings/Arco Arena", 
+         "change": 0.0301246477
+        }
+       ]
+      }
+     ]
+    }, 
+    {
+     "name": "Non-Appropriated", 
+     "children": [
+      {
+       "name": "Non-Appropriated Division", 
+       "children": [
+        {
+         "amount2016": -15661360.0, 
+         "amount2015": -14873700.0, 
+         "name": "Non-Department DeptID", 
+         "change": 0.0529565609
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "name": "Public Safety", 
+   "children": [
+    {
+     "name": "Fire", 
+     "children": [
+      {
+       "name": "Admin. Services Division", 
+       "children": [
+        {
+         "amount2016": 1153753.0, 
+         "amount2015": 1153752.0, 
+         "name": "Data Management", 
+         "change": 8.667e-07
+        }, 
+        {
+         "amount2016": 4548866.0, 
+         "amount2015": 4530118.0, 
+         "name": "Fire Communications Admin", 
+         "change": 0.0041385235
+        }, 
+        {
+         "amount2016": 4417205.0, 
+         "amount2015": 4011601.0, 
+         "name": "Fire Infrastructure", 
+         "change": 0.1011077622
+        }, 
+        {
+         "amount2016": 850129.0, 
+         "amount2015": 808537.0, 
+         "name": "Fire Investigation", 
+         "change": 0.0514410596
+        }, 
+        {
+         "amount2016": 458400.0, 
+         "amount2015": 441081.0, 
+         "name": "Fire Prevention Admin", 
+         "change": 0.0392648969
+        }, 
+        {
+         "amount2016": 1414258.0, 
+         "amount2015": 1353506.0, 
+         "name": "Fire Training", 
+         "change": 0.0448849137
+        }, 
+        {
+         "amount2016": 527396.0, 
+         "amount2015": 393420.0, 
+         "name": "Human Resources - Fire", 
+         "change": 0.3405419145
+        }, 
+        {
+         "amount2016": 4011051.0, 
+         "amount2015": 3887708.0, 
+         "name": "Permits/Code Enforcement 2510", 
+         "change": 0.0317264054
+        }
+       ]
+      }, 
+      {
+       "name": "Fire Chief Division", 
+       "children": [
+        {
+         "amount2016": 542809.0, 
+         "amount2015": 439122.0, 
+         "name": "Fiscal", 
+         "change": 0.2361234463
+        }, 
+        {
+         "amount2016": 1080560.0, 
+         "amount2015": 860186.0, 
+         "name": "Office of the Fire Chief Adm", 
+         "change": 0.2561934279
+        }, 
+        {
+         "amount2016": 231648.0, 
+         "amount2015": 224056.0, 
+         "name": "Special Projects", 
+         "change": 0.033884386
+        }
+       ]
+      }, 
+      {
+       "name": "Operations Division", 
+       "children": [
+        {
+         "amount2016": 36304916.0, 
+         "amount2015": 33643641.0, 
+         "name": "Emergency Medical Response2510", 
+         "change": 0.0791018725
+        }, 
+        {
+         "amount2016": 70123414.0, 
+         "amount2015": 64882013.0, 
+         "name": "Fire Suppression", 
+         "change": 0.0807835756
+        }, 
+        {
+         "amount2016": 1405344.0, 
+         "amount2015": 312431.0, 
+         "name": "Logistics", 
+         "change": 3.4980939792
+        }, 
+        {
+         "amount2016": 446262.0, 
+         "amount2015": 406780.0, 
+         "name": "Operations Admin", 
+         "change": 0.0970598358
+        }, 
+        {
+         "amount2016": 5880.0, 
+         "amount2015": 5880.0, 
+         "name": "Reserves", 
+         "change": 0.0
+        }, 
+        {
+         "amount2016": 1253024.0, 
+         "amount2015": 977704.0, 
+         "name": "Special Operations", 
+         "change": 0.2815985206
+        }
+       ]
+      }
+     ]
+    }, 
+    {
+     "name": "Police", 
+     "children": [
+      {
+       "name": "Field Services Division", 
+       "children": [
+        {
+         "amount2016": 1635387.0, 
+         "amount2015": 1635505.0, 
+         "name": "Alarm Billing Unit", 
+         "change": -7.2149e-05
+        }, 
+        {
+         "amount2016": 0.0, 
+         "amount2015": 0.0, 
+         "name": "CHP", 
+         "change": null
+        }, 
+        {
+         "amount2016": 2359182.0, 
+         "amount2015": 1416280.0, 
+         "name": "CHRP", 
+         "change": 0.6657595956
+        }, 
+        {
+         "amount2016": 10257921.0, 
+         "amount2015": 9930574.0, 
+         "name": "Communications", 
+         "change": 0.0329635528
+        }, 
+        {
+         "amount2016": 396170.0, 
+         "amount2015": 386551.0, 
+         "name": "Crime Analysis", 
+         "change": 0.0248841679
+        }, 
+        {
+         "amount2016": 2892167.0, 
+         "amount2015": 2818328.0, 
+         "name": "Department-Wide", 
+         "change": 0.0261995765
+        }, 
+        {
+         "amount2016": 10154578.0, 
+         "amount2015": 9281629.0, 
+         "name": "East Command", 
+         "change": 0.0940512705
+        }, 
+        {
+         "amount2016": 0.0, 
+         "amount2015": null, 
+         "name": "FY14 CHP", 
+         "change": null
+        }, 
+        {
+         "amount2016": 0.0, 
+         "amount2015": 1.0, 
+         "name": "FY2013 CHP", 
+         "change": -1.0
+        }, 
+        {
+         "amount2016": 994001.0, 
+         "amount2015": 913434.0, 
+         "name": "Fiscal Operations", 
+         "change": 0.0882023222
+        }, 
+        {
+         "amount2016": -136859.0, 
+         "amount2015": -132955.0, 
+         "name": "Operational Services Admin", 
+         "change": 0.0293633184
+        }, 
+        {
+         "amount2016": 1819879.0, 
+         "amount2015": 1287535.0, 
+         "name": "Personnel", 
+         "change": 0.4134598283
+        }, 
+        {
+         "amount2016": 7434245.0, 
+         "amount2015": 7856910.0, 
+         "name": "Police Fleet Management", 
+         "change": -0.0537953216
+        }, 
+        {
+         "amount2016": 3609651.0, 
+         "amount2015": 3476265.0, 
+         "name": "Public Safety Information Tech", 
+         "change": 0.0383704925
+        }, 
+        {
+         "amount2016": 5297842.0, 
+         "amount2015": 5181851.0, 
+         "name": "Records", 
+         "change": 0.0223840863
+        }, 
+        {
+         "amount2016": 2866443.0, 
+         "amount2015": 2728898.0, 
+         "name": "Training", 
+         "change": 0.0504031298
+        }
+       ]
+      }, 
+      {
+       "name": "Investigations Division", 
+       "children": [
+        {
+         "amount2016": 3246703.0, 
+         "amount2015": 3570136.0, 
+         "name": "Forensic Identification", 
+         "change": -0.0905940278
+        }, 
+        {
+         "amount2016": 480574.0, 
+         "amount2015": 683152.0, 
+         "name": "Investigations - Admin", 
+         "change": -0.2965342998
+        }, 
+        {
+         "amount2016": 9988681.0, 
+         "amount2015": 10884058.0, 
+         "name": "Major Crimes", 
+         "change": -0.0822649971
+        }, 
+        {
+         "amount2016": 2174748.0, 
+         "amount2015": 2081289.0, 
+         "name": "Property", 
+         "change": 0.0449043838
+        }, 
+        {
+         "amount2016": 4900600.0, 
+         "amount2015": 4971436.0, 
+         "name": "Property Crimes", 
+         "change": -0.0142485994
+        }
+       ]
+      }, 
+      {
+       "name": "Office of the Chief Division", 
+       "children": [
+        {
+         "amount2016": 1271668.0, 
+         "amount2015": 1183410.0, 
+         "name": "Internal Affairs/Prof Standard", 
+         "change": 0.0745793934
+        }, 
+        {
+         "amount2016": 2998039.0, 
+         "amount2015": 2925073.0, 
+         "name": "Office of the Chief-Admin", 
+         "change": 0.0249450185
+        }
+       ]
+      }, 
+      {
+       "name": "Operational Services Division", 
+       "children": [
+        {
+         "amount2016": 8920891.0, 
+         "amount2015": 9641946.0, 
+         "name": "Central Command", 
+         "change": -0.0747831402
+        }, 
+        {
+         "amount2016": 16028369.0, 
+         "amount2015": 14808646.0, 
+         "name": "Contract Services", 
+         "change": 0.0823655991
+        }, 
+        {
+         "amount2016": 296162.0, 
+         "amount2015": 282609.0, 
+         "name": "Field Services Administration", 
+         "change": 0.0479567176
+        }, 
+        {
+         "amount2016": 489990.0, 
+         "amount2015": 771620.0, 
+         "name": "Field Services Training", 
+         "change": -0.3649853555
+        }, 
+        {
+         "amount2016": 1053978.0, 
+         "amount2015": 1027193.0, 
+         "name": "Metro Administration", 
+         "change": 0.0260759176
+        }, 
+        {
+         "amount2016": 3880166.0, 
+         "amount2015": 3947263.0, 
+         "name": "Metro Special Operations", 
+         "change": -0.0169983606
+        }, 
+        {
+         "amount2016": 4235104.0, 
+         "amount2015": 2622586.0, 
+         "name": "Metro-Traffic/Air Ops", 
+         "change": 0.6148580066
+        }, 
+        {
+         "amount2016": 14550734.0, 
+         "amount2015": 15420178.0, 
+         "name": "North Command", 
+         "change": -0.0563835255
+        }, 
+        {
+         "amount2016": 116504.0, 
+         "amount2015": 147960.0, 
+         "name": "OES/HS", 
+         "change": -0.2125979995
+        }, 
+        {
+         "amount2016": 404663.0, 
+         "amount2015": 540010.0, 
+         "name": "Ofc of Emergency Planning", 
+         "change": -0.2506379511
+        }, 
+        {
+         "amount2016": 12050802.0, 
+         "amount2015": 13353811.0, 
+         "name": "South Command", 
+         "change": -0.0975758156
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }, 
+  {
+   "name": "Support", 
+   "children": [
+    {
+     "name": "Finance", 
+     "children": [
+      {
+       "name": "Accounting Division", 
+       "children": [
+        {
+         "amount2016": 3275493.0, 
+         "amount2015": 3074689.0, 
+         "name": "Accounting", 
+         "change": 0.065308719
+        }
+       ]
+      }, 
+      {
+       "name": "Budget Office Division", 
+       "children": [
+        {
+         "amount2016": 1061952.0, 
+         "amount2015": 976857.0, 
+         "name": "Budget Office", 
+         "change": 0.0871110101
+        }
+       ]
+      }, 
+      {
+       "name": "Finance Administration Division", 
+       "children": [
+        {
+         "amount2016": 582591.0, 
+         "amount2015": 572885.0, 
+         "name": "Finance Administration", 
+         "change": 0.0169423183
+        }
+       ]
+      }, 
+      {
+       "name": "Procurement Division", 
+       "children": [
+        {
+         "amount2016": 643030.0, 
+         "amount2015": 616377.0, 
+         "name": "Procurement Services", 
+         "change": 0.0432413928
+        }
+       ]
+      }, 
+      {
+       "name": "Public Improvement Finance Division", 
+       "children": [
+        {
+         "amount2016": 27377963.0, 
+         "amount2015": 26501442.0, 
+         "name": "Public Improvement Finance", 
+         "change": 0.0330744644
+        }
+       ]
+      }, 
+      {
+       "name": "Revenue Division", 
+       "children": [
+        {
+         "amount2016": 738900.0, 
+         "amount2015": 728452.0, 
+         "name": "Business Permits", 
+         "change": 0.0143427432
+        }, 
+        {
+         "amount2016": 1633674.0, 
+         "amount2015": 1592908.0, 
+         "name": "Enforcement And Collections", 
+         "change": 0.0255921874
+        }, 
+        {
+         "amount2016": 2090065.0, 
+         "amount2015": 2310846.0, 
+         "name": "Revenue Administration", 
+         "change": -0.0955412001
+        }, 
+        {
+         "amount2016": 2107712.0, 
+         "amount2015": 1788175.0, 
+         "name": "Revenue Services", 
+         "change": 0.178694479
+        }
+       ]
+      }
+     ]
+    }, 
+    {
+     "name": "Human Resources", 
+     "children": [
+      {
+       "name": "HR Administration Division", 
+       "children": [
+        {
+         "amount2016": 0.0, 
+         "amount2015": 870330.0, 
+         "name": "Benefits and Retirement", 
+         "change": -1.0
+        }, 
+        {
+         "amount2016": 1989390.0, 
+         "amount2015": 1109629.0, 
+         "name": "Employee Services - HR", 
+         "change": 0.7928424726
+        }, 
+        {
+         "amount2016": 1398510.0, 
+         "amount2015": 1280760.0, 
+         "name": "HR Administration", 
+         "change": 0.0919375996
+        }
+       ]
+      }, 
+      {
+       "name": "Labor Relations Division", 
+       "children": [
+        {
+         "amount2016": 723872.0, 
+         "amount2015": 697330.0, 
+         "name": "Labor Relations Operations", 
+         "change": 0.0380623234
+        }
+       ]
+      }, 
+      {
+       "name": "Risk Management Administration Division", 
+       "children": [
+        {
+         "amount2016": 1470070.0, 
+         "amount2015": 1380253.0, 
+         "name": "Admin & Medical Programs", 
+         "change": 0.0650728526
+        }, 
+        {
+         "amount2016": 625000.0, 
+         "amount2015": 625000.0, 
+         "name": "Citywide Benefits", 
+         "change": 0.0
+        }, 
+        {
+         "amount2016": 1599962.0, 
+         "amount2015": 1570887.0, 
+         "name": "Risk Management Administration", 
+         "change": 0.0185086515
+        }, 
+        {
+         "amount2016": 49634331.0, 
+         "amount2015": 45783633.0, 
+         "name": "Risk Mgmt/Insurance Prgms", 
+         "change": 0.0841064317
+        }, 
+        {
+         "amount2016": 327366.0, 
+         "amount2015": 311203.0, 
+         "name": "SRDTA", 
+         "change": 0.05193716
+        }
+       ]
+      }, 
+      {
+       "name": "Workers' Compensation Division", 
+       "children": [
+        {
+         "amount2016": 2586209.0, 
+         "amount2015": 2511062.0, 
+         "name": "Workers' Compensation", 
+         "change": 0.0299263817
+        }
+       ]
+      }
+     ]
+    }, 
+    {
+     "name": "Information Technology", 
+     "children": [
+      {
+       "name": "Enterprise Applications Management Division", 
+       "children": [
+        {
+         "amount2016": 2316206.0, 
+         "amount2015": 1962662.0, 
+         "name": "Enterprise Applications Management", 
+         "change": 0.1801349392
+        }
+       ]
+      }, 
+      {
+       "name": "IT Business Management Division", 
+       "children": [
+        {
+         "amount2016": 443700.0, 
+         "amount2015": 431248.0, 
+         "name": "Citywide IT Systems", 
+         "change": 0.0288743368
+        }, 
+        {
+         "amount2016": -294000.0, 
+         "amount2015": -296000.0, 
+         "name": "Consolidated IT Service Billing", 
+         "change": -0.0067567568
+        }, 
+        {
+         "amount2016": 1271235.0, 
+         "amount2015": 2629071.0, 
+         "name": "IT Business Management", 
+         "change": -0.5164698861
+        }
+       ]
+      }, 
+      {
+       "name": "IT Regional Support Division", 
+       "children": [
+        {
+         "amount2016": 857886.0, 
+         "amount2015": 814263.0, 
+         "name": "IT Regional Support", 
+         "change": 0.0535735997
+        }
+       ]
+      }, 
+      {
+       "name": "Innovation Team Division", 
+       "children": [
+        {
+         "amount2016": 1507086.0, 
+         "amount2015": null, 
+         "name": "Innovation Team", 
+         "change": null
+        }
+       ]
+      }, 
+      {
+       "name": "Technology Infrastructure Services Division", 
+       "children": [
+        {
+         "amount2016": 2447111.0, 
+         "amount2015": 2220538.0, 
+         "name": "Technology Infrastructure Services", 
+         "change": 0.1020351825
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
