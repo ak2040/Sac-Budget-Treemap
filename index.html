@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title> Sacramento City Budget 2015/16</title>
+<title> Sacramento City Budget 2015 / 16 </title>
 <style>
 
 body {
@@ -59,7 +59,7 @@ rect.parent,
 
 </style>
 
-<h1> <center> City of Sacramento Budget 2015/16: $1.7 Billion </center></h1>
+<h1> <center> City of Sacramento Budget 2015/16 </center></h1>
 
 <p id="chart">
 
@@ -68,10 +68,17 @@ rect.parent,
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
+var dollarformat = d3.format("$0,000")
+
+var color_domain = [100000, 200000, 300000, 400000, 500000, 600000, 700000, 800000, 900000]
+var color_range=["#f7fcf5", "#f7fcf5","#e5f5e0", "#c7e9c0", "#a1d99b", "#74c476", "#41ab5d", "#238b45", "#006d2c", "#00441b"]
+
 var margin = {top: 40, right: 0, bottom: 0, left: 0},
     width = 960,
     height = 500 - margin.top - margin.bottom,
     formatNumber = d3.format(",d"),
+    colorDomain = color_domain,
+    colorRange = color_range,
     transitioning;
 
 var x = d3.scale.linear()
@@ -81,6 +88,10 @@ var x = d3.scale.linear()
 var y = d3.scale.linear()
     .domain([0, height])
     .range([0, height]);
+
+var color = d3.scale.linear()
+    .domain(colorDomain)
+    .range(colorRange);
 
 var treemap = d3.layout.treemap()
     .value(function(d) {return d.amount2016})
@@ -97,8 +108,6 @@ var svg = d3.select("#chart").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
     .style("shape-rendering", "crispEdges");
-	
-var color = d3.scale.category20c();
 
 var grandparent = svg.append("g")
     .attr("class", "grandparent");
@@ -109,7 +118,7 @@ grandparent.append("rect")
     .attr("height", margin.top);
 
 grandparent.append("text")
-    .attr("x", width/2-136)
+    .attr("x", 6)
     .attr("y", 10 - margin.top)
     .attr("dy", ".75em");
 
@@ -191,7 +200,7 @@ d3.json("data/sacbudget.json", function(root) {
 
     g.append("text")
         .attr("dy", ".75em")
-        .text(function(d) { return d.name; })
+        .text(function(d) { return d.name + ": " + dollarformat(d.amount2016); })
         .call(text);
 
     function transition(d) {
@@ -240,14 +249,13 @@ d3.json("data/sacbudget.json", function(root) {
     rect.attr("x", function(d) { return x(d.x); })
         .attr("y", function(d) { return y(d.y); })
         .attr("width", function(d) { return x(d.x + d.dx) - x(d.x); })
-        .attr("height", function(d) { return y(d.y + d.dy) - y(d.y); })
-	  	.style("background", function(d) { return d.parent ? color(d.name) : null; });	//added
+		.attr("height", function(d) { return y(d.y + d.dy) - y(d.y); });	//added
   }
 
   function name(d) {
     return d.parent
-        ? name(d.parent) + "." + d.name
-        : d.name;
+        ? d.name + ": "+ dollarformat(d.amount2016)
+        : d.name + ": "+ dollarformat(d.amount2016);
   }
 });
 </script>
