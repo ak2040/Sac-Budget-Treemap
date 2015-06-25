@@ -4,8 +4,8 @@ import pandas as pd
 import numpy as np
 import json
 
-INPATH='/Users/a_king/Documents/D3/Sac_Budget/prep_data/temp/'
-OUTPATH='/Users/a_king/Documents/D3/Sac_Budget/for github/data/'
+INPATH='/Sac_Budget/prep_data/temp/'
+OUTPATH='/Sac_Budget/for github/data/'
 
 
 df_all=pd.read_excel(INPATH+'sac_budget_t1.xlsx', 'Sheet1')

@@ -1,7 +1,7 @@
 
-global input "/Users/a_king/Documents/D3/Sac_Budget/input data/"
-global output "/Users/a_king/Documents/D3/Sac_Budget/data/prep_data/temp/"
-global temp "/Users/a_king/Documents/temp/"
+global input "/Sac_Budget/input data/"
+global output "/Sac_Budget/data/prep_data/temp/"
+global temp "/temp/"
 
 
 import excel using "$input/Sac_Budget_1415.xlsx", clear firstr
