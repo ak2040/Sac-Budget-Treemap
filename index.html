@@ -12,12 +12,12 @@ body {
 #chart {
   width: 960px;
   height: 500px;
-  background: #ddd;
 }
 
 text {
   pointer-events: none;
 }
+
 
 .grandparent text {
   font-weight: bold;
@@ -25,8 +25,9 @@ text {
 }
 
 rect {
-  fill: none;
+/*  fill: none; */
   stroke: #fff;
+  stroke-width: 1px;
 }
 
 rect.parent,
@@ -40,7 +41,7 @@ rect.parent,
 }
 
 .grandparent:hover rect {
-  fill: #ee9700;
+  fill: #f0f0f0;
 }
 
 .children rect.parent,
@@ -48,14 +49,24 @@ rect.parent,
   cursor: pointer;
 }
 
+.children rect.child {
+  opacity: 1;
+}
+
 .children rect.parent {
-  fill: #bbb;
-  fill-opacity: .5;
+	fill: white;
+	opacity: 0;
 }
 
 .children:hover rect.child {
-  fill: #bbb;
+  opacity: 1;
+  stroke-width: 1px;
 }
+
+.children:hover rect.parent {
+  opacity: .5;
+}
+
 
 </style>
 
@@ -77,8 +88,8 @@ var margin = {top: 40, right: 0, bottom: 0, left: 0},
     width = 960,
     height = 500 - margin.top - margin.bottom,
     formatNumber = d3.format(",d"),
-    colorDomain = color_domain,
-    colorRange = color_range,
+    colorDomain = [-5000, -500, -20, 0, 20, 500, 5000],
+    colorRange = ["#67000d", "#a50f15", "#ef3b2c", "#ffeda0","#41ab5d", "#006d2c", "#00441b"],
     transitioning;
 
 var x = d3.scale.linear()
@@ -125,6 +136,7 @@ grandparent.append("text")
 d3.json("data/sacbudget.json", function(root) {
   initialize(root);
   accumulate(root);
+  accum2(root);
   layout(root);
   display(root);
 
@@ -144,6 +156,13 @@ d3.json("data/sacbudget.json", function(root) {
     return (d._children = d.children)
         ? d.amount2016 = d.children.reduce(function(p, v) { return p + accumulate(v); }, 0)
         : d.amount2016;
+  }
+  
+  function accum2(d) {
+     console.log(d.amount2015);
+    return (d._children = d.children)
+        ? d.amount2015 = d.children.reduce(function(p, v) { return p + accum2(v); }, 0)
+        : d.amount2015;
   }
 
   // Compute the treemap layout recursively such that each group of siblings
@@ -247,9 +266,10 @@ d3.json("data/sacbudget.json", function(root) {
 
   function rect(rect) {
     rect.attr("x", function(d) { return x(d.x); })
-        .attr("y", function(d) { return y(d.y); })
-        .attr("width", function(d) { return x(d.x + d.dx) - x(d.x); })
-		.attr("height", function(d) { return y(d.y + d.dy) - y(d.y); });	//added
+       .attr("y", function(d) { return y(d.y); })
+       .attr("width", function(d) { return x(d.x + d.dx) - x(d.x); })
+	   .attr("height", function(d) { return y(d.y + d.dy) - y(d.y); })
+	   .attr("fill", function(d){return color((parseFloat(d.parent.amount2016)/parseFloat(d.parent.amount2015)-1)*100);});
   }
 
   function name(d) {
