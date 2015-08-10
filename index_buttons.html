@@ -2,6 +2,13 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <title> Sacramento City Budget 2015 / 16 </title>
+<head>
+<link href="css/bootstrap.css" rel="stylesheet">
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+</head>
+
 <style>
 
 body {
@@ -67,29 +74,63 @@ rect.parent,
   opacity: .5;
 }
 
+.legend rect {
+  stroke-width: 0px;
+}
+
+.legend text {
+  text-anchor: middle;
+  pointer-events: auto;
+  font-size: 15px;
+  font-family: sans-serif;
+  fill: black;
+}
+
+.btn-group {
+  padding-left: 350px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-default {
+    font-size: 12px;
+}
 
 </style>
 
 <h1> <center> City of Sacramento Budget 2015/16 </center></h1>
 
+<body>
+<div class="col-md-10 col-md-offset-1" id="chart">
+  <div class="btn-group" data-toggle="buttons">
+      <label class="btn btn-default active" id="2016"><input type="radio" name="options"> 2015/16 (Proposed)</label>
+      <label class="btn btn-default" id="2015"><input type="radio" name="options"> 2014/15 (Actual) </label>
+  </div>
+</div>	
+	
 <p id="chart">
+
+<h3 style="font-weight: bold"><center>Legend</center></h3>
+<p style="width: 960px"><center>Percent Change in Budget from 2014/15 to 2015/16</center></p>
+<div id="legend"></div>
 
 <aside></aside>
 
-<script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
-var dollarformat = d3.format("$0,000")
+/* Old colors
+    colorDomain = [-5000, -500, -20, 0, 20, 500, 5000],
+    colorRange = ["#67000d", "#a50f15", "#ef3b2c", "#ffeda0","#41ab5d", "#006d2c", "#00441b"],
+*/
 
-var color_domain = [100000, 200000, 300000, 400000, 500000, 600000, 700000, 800000, 900000]
-var color_range=["#f7fcf5", "#f7fcf5","#e5f5e0", "#c7e9c0", "#a1d99b", "#74c476", "#41ab5d", "#238b45", "#006d2c", "#00441b"]
+var dollarformat = d3.format("$0,000")
 
 var margin = {top: 40, right: 0, bottom: 0, left: 0},
     width = 960,
     height = 500 - margin.top - margin.bottom,
     formatNumber = d3.format(",d"),
-    colorDomain = [-5000, -500, -20, 0, 20, 500, 5000],
-    colorRange = ["#67000d", "#a50f15", "#ef3b2c", "#ffeda0","#41ab5d", "#006d2c", "#00441b"],
+    colorDomain = [-5000, -500, -20, -5, 0, 5, 20, 500, 5000],
+    colorRange = ["#67001f", "#b2182b", "#d6604d", "#f4a582", "#f7f7f7", "#92c5de", "#4393c3", "#2166ac", "#053061"],
     transitioning;
 
 var x = d3.scale.linear()
@@ -132,7 +173,38 @@ grandparent.append("text")
     .attr("x", 6)
     .attr("y", 10 - margin.top)
     .attr("dy", ".75em");
+	
+var legend = d3.select("#legend").append("svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", 30)
+  .attr('class', 'legend')
+  .attr("x", 12)
+  .selectAll("g")
+      .data([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18])
+      .enter()
+	  .append('g');	
 
+
+
+function colorIncrements(d){
+		    return (40)/18*d + -20;
+		}
+
+legend.append("rect")
+    .attr("x", function(d){return margin.left + d * 40})
+    .attr("y", 0)
+    .attr("fill", function(d) {return color(colorIncrements(d))})
+    .attr('width', '40px')
+    .attr('height', '40px')
+
+
+legend.append("text")
+        .text(function(d){return formatNumber(colorIncrements(d))})
+        .attr('y', 20)
+        .attr('x', function(d){return margin.left + d * 40 + 20});
+
+
+//
 d3.json("data/sacbudget.json", function(root) {
   initialize(root);
   accumulate(root);
@@ -221,7 +293,54 @@ d3.json("data/sacbudget.json", function(root) {
         .attr("dy", ".75em")
         .text(function(d) { return d.name + ": " + dollarformat(d.amount2016); })
         .call(text);
+		
+	//   ==========================
+	//   The button functionality
+	//   ==========================
 
+	d3.selectAll("input").on("change", change);
+
+	var timeout = setTimeout(function() {
+	  d3.select("input[value=\"2016\"]").property("checked", true).each(change);
+	}, 2000);
+
+	function change() {
+	  clearTimeout(timeout);
+	  if (this.value === "2016") size2016();
+	else if (this.value === "2015") size2015();
+	};
+
+	$( ".btn" ).click(function() {
+		if (this.id == '2016') {
+		size2016();
+		} else if (this.id == '2015') {
+		size2015();
+		} 
+	});	  
+	function size2016() {
+	  	var value;
+	  	value();
+	      d3.selectAll("input").on("change", function change() {
+	  	  value = function(d) { return d.amount2016; };
+	        g.selectAll(".child")
+	            .data(treemap.value(value).children)
+	          .transition()
+	            .duration(1500)
+	            .call(rect);
+	        });
+	  	};
+	
+	function size2015() {
+	      d3.selectAll("input").on("change", function change() {
+	  	  var value = function(d) { return d.amount2015; };
+	        g.selectAll(".child")
+	            .data(treemap.value(value).children)
+	          .transition()
+	            .duration(1500)
+	            .call(rect);
+	        });
+	  	};
+		
     function transition(d) {
       if (transitioning || !d) return;
       transitioning = true;
@@ -269,7 +388,7 @@ d3.json("data/sacbudget.json", function(root) {
        .attr("y", function(d) { return y(d.y); })
        .attr("width", function(d) { return x(d.x + d.dx) - x(d.x); })
 	   .attr("height", function(d) { return y(d.y + d.dy) - y(d.y); })
-	   .attr("fill", function(d){return color((parseFloat(d.parent.amount2016)/parseFloat(d.parent.amount2015)-1)*100);});
+	   .attr("fill", function(d){return 	color((parseFloat(d.parent.amount2016)/parseFloat(d.parent.amount2015)-1)*100);});
   }
 
   function name(d) {
@@ -277,6 +396,12 @@ d3.json("data/sacbudget.json", function(root) {
         ? d.name + ": "+ dollarformat(d.amount2016)
         : d.name + ": "+ dollarformat(d.amount2016);
   }
+  
+  var globalf = "global";
+  
+  //
+
 });
 </script>
+</body>
 
