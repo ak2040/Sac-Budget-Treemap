@@ -108,8 +108,8 @@ rect.parent,
 div.tooltip {   
   position: absolute;           
   text-align: center;    
-  width: 400px;                  
-  height: 200px;
+  width: 500px;                  
+  height: 275px;
   line-height: 18px;               
   padding: 2px;             
   font-size: 14px;
@@ -346,7 +346,7 @@ d3.json("data/sacbudget_v2.json", function(root) {
 	    .on("mouseover", function(d) {
 	      div.transition().duration(50)
 	      .style("opacity", 1)
-	      div.html(d.name + "<br/>"+ (d.desc!=null ? d.desc : '') + "<br/>" + "Budget 2015/16 :    " + dollarformat(d.amount2016) + " <br/> Budget 2014/15: " + dollarformat(d.amount2015))
+	      div.html("<br/>"+d.name + "<br/> <br/>" + "Budget 2015/16 :    " + dollarformat(d.amount2016) + " <br/> Budget 2014/15: " + dollarformat(d.amount2015) +"<br/> <br/> <br/>"+(d.desc!=null ? d.desc : ""))
 	      .style("left", (d3.event.pageX - 175) + "px")
 	      .style("top", (d3.event.pageY - 50) + "px");
 	    })
