@@ -4,108 +4,6 @@
   {
    "children": [
     {
-     "name": "City Attorney Division", 
-     "children": [
-      {
-       "amount2016": 7180749.0, 
-       "amount2015": 6663089.0, 
-       "name": "City Attorney Department", 
-       "change": 0.0776906927
-      }
-     ]
-    }
-   ], 
-   "name": "City Attorney", 
-   "desc": "this is test text for the department: City Attorney"
-  }, 
-  {
-   "children": [
-    {
-     "name": "City Clerk Division", 
-     "children": [
-      {
-       "amount2016": 1491006.0, 
-       "amount2015": 1406518.0, 
-       "name": "City Clerk Operations", 
-       "change": 0.0600689078
-      }
-     ]
-    }, 
-    {
-     "name": "Mayor-Council Operations Division", 
-     "children": [
-      {
-       "amount2016": 332766.0, 
-       "amount2015": 354871.0, 
-       "name": "Mayor Council Operations", 
-       "change": -0.0622902407
-      }
-     ]
-    }
-   ], 
-   "name": "City Clerk", 
-   "desc": "this is test text for the department: City Clerk"
-  }, 
-  {
-   "children": [
-    {
-     "name": "City Manager Division", 
-     "children": [
-      {
-       "amount2016": 2899010.0, 
-       "amount2015": 2392943.0, 
-       "name": "Executive Office", 
-       "change": 0.2114830984
-      }
-     ]
-    }, 
-    {
-     "name": "Media & Communications Division", 
-     "children": [
-      {
-       "amount2016": 291236.0, 
-       "amount2015": 328765.0, 
-       "name": "Media and Communications", 
-       "change": -0.1141514456
-      }
-     ]
-    }, 
-    {
-     "name": "Public Safety Accountability Division", 
-     "children": [
-      {
-       "amount2016": 171655.0, 
-       "amount2015": 175521.0, 
-       "name": "Public Safety Accountability", 
-       "change": -0.0220258545
-      }
-     ]
-    }
-   ], 
-   "name": "City Manager", 
-   "desc": "this is test text for the department: City Manager"
-  }, 
-  {
-   "children": [
-    {
-     "name": "City Treasurer Division", 
-     "children": [
-      {
-       "amount2016": 2279065.0, 
-       "amount2015": 2045024.0, 
-       "name": "City Treasurer Operations", 
-       "change": 0.1144441337
-      }
-     ]
-    }
-   ], 
-   "name": "City Treasurer", 
-   "desc": "this is test text for the department: City Treasurer"
-  }, 
-  {
-   "children": [
-    {
-     "name": "Citywide Support Division", 
      "children": [
       {
        "amount2016": 400000.0, 
@@ -161,10 +59,11 @@
        "name": "Successor Agency", 
        "change": -0.3333333333
       }
-     ]
+     ], 
+     "name": "Citywide Support Division", 
+     "desc": ""
     }, 
     {
-     "name": "Community Support Division", 
      "children": [
       {
        "amount2016": 663758.0, 
@@ -220,49 +119,11 @@
        "name": "Utility Users Tax Rebate", 
        "change": -0.25
       }
-     ]
+     ], 
+     "name": "Community Support Division", 
+     "desc": ""
     }, 
     {
-     "name": "County Property Taxes & Charges", 
-     "children": [
-      {
-       "amount2016": 2450000.0, 
-       "amount2015": 2700000.0, 
-       "name": "Sacramento County Charges", 
-       "change": -0.0925925926
-      }
-     ]
-    }, 
-    {
-     "name": "Fund Contingency Division", 
-     "children": [
-      {
-       "amount2016": 1000000.0, 
-       "amount2015": 2400000.0, 
-       "name": "Administrative Contingency", 
-       "change": -0.5833333333
-      }
-     ]
-    }, 
-    {
-     "name": "Major Tax Revenues Division", 
-     "children": [
-      {
-       "amount2016": 400000.0, 
-       "amount2015": 500000.0, 
-       "name": "Major Tax Revenues DeptID", 
-       "change": -0.2
-      }, 
-      {
-       "amount2016": null, 
-       "amount2015": 0.0, 
-       "name": "Other Major Tax Revenues", 
-       "change": null
-      }
-     ]
-    }, 
-    {
-     "name": "Retired/Transfer Emp Benefit 1530", 
      "children": [
       {
        "amount2016": 20664360.0, 
@@ -270,294 +131,61 @@
        "name": "Retired/Transfer Emp Benef", 
        "change": 0.0128595236
       }
+     ], 
+     "name": "Retired/Transfer Emp Benefit 1530", 
+     "desc": ""
+    }, 
+    {
+     "name": "Other", 
+     "children": [
+      {
+       "name": "County Property Taxes & Charges", 
+       "children": [
+        {
+         "amount2016": 2450000.0, 
+         "amount2015": 2700000.0, 
+         "name": "Sacramento County Charges", 
+         "change": -0.0925925926
+        }
+       ]
+      }, 
+      {
+       "name": "Fund Contingency Division", 
+       "children": [
+        {
+         "amount2016": 1000000.0, 
+         "amount2015": 2400000.0, 
+         "name": "Administrative Contingency", 
+         "change": -0.5833333333
+        }
+       ]
+      }, 
+      {
+       "name": "Major Tax Revenues Division", 
+       "children": [
+        {
+         "amount2016": 400000.0, 
+         "amount2015": 500000.0, 
+         "name": "Major Tax Revenues DeptID", 
+         "change": -0.2
+        }, 
+        {
+         "amount2016": null, 
+         "amount2015": 0.0, 
+         "name": "Other Major Tax Revenues", 
+         "change": null
+        }
+       ]
+      }
      ]
     }
    ], 
    "name": "Citywide and Community Support", 
-   "desc": "this is test text for the department: Citywide and Community Support"
+   "desc": ""
   }, 
   {
    "children": [
     {
-     "name": "Administration Division", 
-     "children": [
-      {
-       "amount2016": 2512365.0, 
-       "amount2015": 2455015.0, 
-       "name": "Administrative Services", 
-       "change": 0.0233603461
-      }
-     ]
-    }, 
-    {
-     "name": "Building Division", 
-     "children": [
-      {
-       "amount2016": 3677390.0, 
-       "amount2015": 2922522.0, 
-       "name": "Building", 
-       "change": 0.2582933507
-      }, 
-      {
-       "amount2016": 1937164.0, 
-       "amount2015": 1497074.0, 
-       "name": "Building Plan Check", 
-       "change": 0.2939667645
-      }
-     ]
-    }, 
-    {
-     "name": "Code Enforcement Division", 
-     "children": [
-      {
-       "amount2016": 251872.0, 
-       "amount2015": 393285.0, 
-       "name": "Business Compliance Department", 
-       "change": -0.3595687606
-      }, 
-      {
-       "amount2016": 3616682.0, 
-       "amount2015": 3411188.0, 
-       "name": "Housing & Dangerous Buildings", 
-       "change": 0.0602411828
-      }, 
-      {
-       "amount2016": 2814199.0, 
-       "amount2015": 3253040.0, 
-       "name": "Neighborhood Code Compliance", 
-       "change": -0.1349018149
-      }, 
-      {
-       "amount2016": 1167272.0, 
-       "amount2015": 1147368.0, 
-       "name": "Rental Housing Inspection Program", 
-       "change": 0.0173475293
-      }
-     ]
-    }, 
-    {
-     "name": "Customer Service Division", 
-     "children": [
-      {
-       "amount2016": 2246938.0, 
-       "amount2015": 1407993.0, 
-       "name": "Customer Service", 
-       "change": 0.5958445816
-      }
-     ]
-    }, 
-    {
-     "name": "Planning Division", 
-     "children": [
-      {
-       "amount2016": 2808229.0, 
-       "amount2015": 1632442.0, 
-       "name": "Current Planning", 
-       "change": 0.7202626495
-      }, 
-      {
-       "amount2016": 563942.0, 
-       "amount2015": 751768.0, 
-       "name": "Long Range", 
-       "change": -0.2498456971
-      }, 
-      {
-       "amount2016": 0.0, 
-       "amount2015": 576463.0, 
-       "name": "Planning Design/Preservation", 
-       "change": -1.0
-      }, 
-      {
-       "amount2016": 91911.0, 
-       "amount2015": 87332.0, 
-       "name": "Planning Environmental", 
-       "change": 0.0524320982
-      }, 
-      {
-       "amount2016": 724090.0, 
-       "amount2015": 697295.0, 
-       "name": "Zoning", 
-       "change": 0.0384270646
-      }
-     ]
-    }
-   ], 
-   "name": "Community Development", 
-   "desc": "this is test text for the department: Community Development"
-  }, 
-  {
-   "children": [
-    {
-     "name": "CCS Administration Division", 
-     "children": [
-      {
-       "amount2016": 1703298.0, 
-       "amount2015": 1548581.0, 
-       "name": "CCS Administration", 
-       "change": 0.0999088843
-      }, 
-      {
-       "amount2016": 45000.0, 
-       "amount2015": 45000.0, 
-       "name": "Contract Administration", 
-       "change": 0.0
-      }
-     ]
-    }, 
-    {
-     "name": "Center for Sacramento History Division", 
-     "children": [
-      {
-       "amount2016": 432188.0, 
-       "amount2015": 417086.0, 
-       "name": "Center for Sacramento History", 
-       "change": 0.0362083599
-      }
-     ]
-    }, 
-    {
-     "name": "Convention Center Complex Division", 
-     "children": [
-      {
-       "amount2016": 523188.0, 
-       "amount2015": 453306.0, 
-       "name": "Box Office", 
-       "change": 0.1541607656
-      }, 
-      {
-       "amount2016": 1021971.0, 
-       "amount2015": 943403.0, 
-       "name": "Conv Ctr Admn/Events Svcs", 
-       "change": 0.083281482
-      }, 
-      {
-       "amount2016": 3206738.0, 
-       "amount2015": 3307010.0, 
-       "name": "Conv Ctr Operational Admn", 
-       "change": -0.0303210453
-      }, 
-      {
-       "amount2016": 6631139.0, 
-       "amount2015": 6283258.0, 
-       "name": "Operations", 
-       "change": 0.0553663402
-      }
-     ]
-    }, 
-    {
-     "name": "Crocker Art Museum Division", 
-     "children": [
-      {
-       "amount2016": 1934148.0, 
-       "amount2015": 1797756.0, 
-       "name": "Crocker Art Museum", 
-       "change": 0.0758679153
-      }
-     ]
-    }, 
-    {
-     "name": "Fairytale Town Division", 
-     "children": [
-      {
-       "amount2016": 62245.0, 
-       "amount2015": 62245.0, 
-       "name": "Fairytale Town", 
-       "change": 0.0
-      }
-     ]
-    }, 
-    {
-     "name": "Metro Arts Commission Division", 
-     "children": [
-      {
-       "amount2016": 188853.0, 
-       "amount2015": 177930.0, 
-       "name": "Arts Education & Outreach", 
-       "change": 0.0613893104
-      }, 
-      {
-       "amount2016": 0.0, 
-       "amount2015": 0.0, 
-       "name": "Metro Arts-APP", 
-       "change": null
-      }, 
-      {
-       "amount2016": 176380.0, 
-       "amount2015": 180592.0, 
-       "name": "Metro Arts-Administration", 
-       "change": -0.0233232923
-      }, 
-      {
-       "amount2016": 54628.0, 
-       "amount2015": 40807.0, 
-       "name": "Metro Arts-Prog Contrib", 
-       "change": 0.3386918911
-      }
-     ]
-    }, 
-    {
-     "name": "Old City Cemetery Division", 
-     "children": [
-      {
-       "amount2016": 1883.0, 
-       "amount2015": null, 
-       "name": "City Cemetery", 
-       "change": null
-      }
-     ]
-    }, 
-    {
-     "name": "Old Sacramento Division", 
-     "children": [
-      {
-       "amount2016": 1422906.0, 
-       "amount2015": 1399297.0, 
-       "name": "Old Sacramento", 
-       "change": 0.0168720436
-      }
-     ]
-    }, 
-    {
-     "name": "Powerhouse Science Center Division", 
-     "children": [
-      {
-       "amount2016": 238541.0, 
-       "amount2015": 238541.0, 
-       "name": "Powerhouse Science Center", 
-       "change": 0.0
-      }
-     ]
-    }, 
-    {
-     "name": "Sacramento History  Museum Division", 
-     "children": [
-      {
-       "amount2016": 236733.0, 
-       "amount2015": 236733.0, 
-       "name": "Sacramento History Museum", 
-       "change": 0.0
-      }
-     ]
-    }, 
-    {
-     "name": "Sacramento Zoo Division", 
-     "children": [
-      {
-       "amount2016": 527637.0, 
-       "amount2015": 510644.0, 
-       "name": "Sacramento Zoo", 
-       "change": 0.0332775867
-      }
-     ]
-    }
-   ], 
-   "name": "Convention and Cultural Services", 
-   "desc": "this is test text for the department: Convention and Cultural Services"
-  }, 
-  {
-   "children": [
-    {
-     "name": "2013 Debt Service Water Revenues", 
      "children": [
       {
        "amount2016": 14016625.0, 
@@ -565,43 +193,11 @@
        "name": "Debt Service 2013 Water Revenues", 
        "change": 0.0003836203
       }
-     ]
+     ], 
+     "name": "2013 Debt Service Water Revenues", 
+     "desc": ""
     }, 
     {
-     "name": "2013 Wastewater Revenue Bonds", 
-     "children": [
-      {
-       "amount2016": 1955431.0, 
-       "amount2015": 1403831.0, 
-       "name": "Debt Service 2013 Wastewater Rev Bonds", 
-       "change": 0.3929247894
-      }
-     ]
-    }, 
-    {
-     "name": "2014 ESC Lease Revenue Bonds Division", 
-     "children": [
-      {
-       "amount2016": 0.0, 
-       "amount2015": null, 
-       "name": "Debt Service 2014 ESC Lease Revenue Bonds", 
-       "change": null
-      }
-     ]
-    }, 
-    {
-     "name": "Debt Serv-02 Ref Cop and 91pf 1131 Division", 
-     "children": [
-      {
-       "amount2016": 3436942.0, 
-       "amount2015": 3436939.0, 
-       "name": "Debt Svc-State Revol", 
-       "change": 8.729e-07
-      }
-     ]
-    }, 
-    {
-     "name": "Debt Service - 2005 Refunding Division", 
      "children": [
       {
        "amount2016": 2755469.0, 
@@ -615,10 +211,11 @@
        "name": "Debt Service-2005 Refunding", 
        "change": 0.0462145429
       }
-     ]
+     ], 
+     "name": "Debt Service - 2005 Refunding Division", 
+     "desc": ""
     }, 
     {
-     "name": "Debt Service-2006 Cirbs Ser B Division", 
      "children": [
       {
        "amount2016": 3957471.0, 
@@ -626,10 +223,11 @@
        "name": "Debt Service-2006 Cirbs Ser B", 
        "change": -0.0007047514
       }
-     ]
+     ], 
+     "name": "Debt Service-2006 Cirbs Ser B Division", 
+     "desc": ""
     }, 
     {
-     "name": "Debt Service-2006 Cirbs Ser D Division", 
      "children": [
       {
        "amount2016": 1277800.0, 
@@ -649,21 +247,11 @@
        "name": "Debt Service-2006 Cirbs Ser E", 
        "change": 0.0
       }
-     ]
+     ], 
+     "name": "Debt Service-2006 Cirbs Ser D Division", 
+     "desc": ""
     }, 
     {
-     "name": "Debt Service-Dbw (Docks) Division", 
-     "children": [
-      {
-       "amount2016": 102599.0, 
-       "amount2015": 102599.0, 
-       "name": "Debt Service-DB&W (Docks)", 
-       "change": 0.0
-      }
-     ]
-    }, 
-    {
-     "name": "Debt Service-Miscellaneous Division", 
      "children": [
       {
        "amount2016": 9167380.0, 
@@ -695,21 +283,11 @@
        "name": "Debt Svc-Financing Leases", 
        "change": -0.0341084555
       }
-     ]
+     ], 
+     "name": "Debt Service-Miscellaneous Division", 
+     "desc": ""
     }, 
     {
-     "name": "Debt Svc-2002 Cirb 1131 Division", 
-     "children": [
-      {
-       "amount2016": 302400.0, 
-       "amount2015": 1217014.0, 
-       "name": "Debt Svc-2002 Cirb 1131", 
-       "change": -0.7515229899
-      }
-     ]
-    }, 
-    {
-     "name": "Kings and Arco Arena 1131 Division", 
      "children": [
       {
        "amount2016": 5767979.0, 
@@ -717,151 +295,77 @@
        "name": "Debt Service-Kings/Arco Arena", 
        "change": 0.0301246477
       }
+     ], 
+     "name": "Kings and Arco Arena 1131 Division", 
+     "desc": ""
+    }, 
+    {
+     "name": "Other", 
+     "children": [
+      {
+       "name": "2013 Wastewater Revenue Bonds", 
+       "children": [
+        {
+         "amount2016": 1955431.0, 
+         "amount2015": 1403831.0, 
+         "name": "Debt Service 2013 Wastewater Rev Bonds", 
+         "change": 0.3929247894
+        }
+       ]
+      }, 
+      {
+       "name": "2014 ESC Lease Revenue Bonds Division", 
+       "children": [
+        {
+         "amount2016": 0.0, 
+         "amount2015": null, 
+         "name": "Debt Service 2014 ESC Lease Revenue Bonds", 
+         "change": null
+        }
+       ]
+      }, 
+      {
+       "name": "Debt Serv-02 Ref Cop and 91pf 1131 Division", 
+       "children": [
+        {
+         "amount2016": 3436942.0, 
+         "amount2015": 3436939.0, 
+         "name": "Debt Svc-State Revol", 
+         "change": 8.729e-07
+        }
+       ]
+      }, 
+      {
+       "name": "Debt Service-Dbw (Docks) Division", 
+       "children": [
+        {
+         "amount2016": 102599.0, 
+         "amount2015": 102599.0, 
+         "name": "Debt Service-DB&W (Docks)", 
+         "change": 0.0
+        }
+       ]
+      }, 
+      {
+       "name": "Debt Svc-2002 Cirb 1131 Division", 
+       "children": [
+        {
+         "amount2016": 302400.0, 
+         "amount2015": 1217014.0, 
+         "name": "Debt Svc-2002 Cirb 1131", 
+         "change": -0.7515229899
+        }
+       ]
+      }
      ]
     }
    ], 
    "name": "Debt Service", 
-   "desc": "this is test text for the department: Debt Service"
+   "desc": "The Debt Service Program finances the cost of capital improvements through revenue bonds, capital\nleases, notes payable, or advances from other funds. Debt service payments are generally made in semiannual\ninstallments. This budget contains all General Fund debt service payments and the debt service for\nall other funds, with the exception of internal loans as shown in the individual department budget charts."
   }, 
   {
    "children": [
     {
-     "name": "Citywide Development Division", 
-     "children": [
-      {
-       "amount2016": 0.0, 
-       "amount2015": 1155371.0, 
-       "name": "Army Depot Utilities", 
-       "change": -1.0
-      }, 
-      {
-       "amount2016": 926270.0, 
-       "amount2015": 946996.0, 
-       "name": "Citywide Development", 
-       "change": -0.0218860481
-      }
-     ]
-    }, 
-    {
-     "name": "Downtown Development Division", 
-     "children": [
-      {
-       "amount2016": 776540.0, 
-       "amount2015": 828326.0, 
-       "name": "Downtown Development", 
-       "change": -0.0625188633
-      }
-     ]
-    }, 
-    {
-     "name": "Economic Development Administration Division", 
-     "children": [
-      {
-       "amount2016": 334143.0, 
-       "amount2015": 335134.0, 
-       "name": "Administration", 
-       "change": -0.0029570261
-      }
-     ]
-    }
-   ], 
-   "name": "Economic Development", 
-   "desc": "this is test text for the department: Economic Development"
-  }, 
-  {
-   "children": [
-    {
-     "name": "Accounting Division", 
-     "children": [
-      {
-       "amount2016": 3017649.0, 
-       "amount2015": 2816845.0, 
-       "name": "Accounting", 
-       "change": 0.0712868475
-      }
-     ]
-    }, 
-    {
-     "name": "Budget Office Division", 
-     "children": [
-      {
-       "amount2016": 1061952.0, 
-       "amount2015": 976857.0, 
-       "name": "Budget Office", 
-       "change": 0.0871110101
-      }
-     ]
-    }, 
-    {
-     "name": "Finance Administration Division", 
-     "children": [
-      {
-       "amount2016": 582591.0, 
-       "amount2015": 572885.0, 
-       "name": "Finance Administration", 
-       "change": 0.0169423183
-      }
-     ]
-    }, 
-    {
-     "name": "Procurement Division", 
-     "children": [
-      {
-       "amount2016": 643030.0, 
-       "amount2015": 616377.0, 
-       "name": "Procurement Services", 
-       "change": 0.0432413928
-      }
-     ]
-    }, 
-    {
-     "name": "Public Improvement Finance Division", 
-     "children": [
-      {
-       "amount2016": 802316.0, 
-       "amount2015": 832570.0, 
-       "name": "Public Improvement Finance", 
-       "change": -0.0363380857
-      }
-     ]
-    }, 
-    {
-     "name": "Revenue Division", 
-     "children": [
-      {
-       "amount2016": 407900.0, 
-       "amount2015": 397452.0, 
-       "name": "Business Permits", 
-       "change": 0.0262874511
-      }, 
-      {
-       "amount2016": 1062674.0, 
-       "amount2015": 1021908.0, 
-       "name": "Enforcement And Collections", 
-       "change": 0.0398920451
-      }, 
-      {
-       "amount2016": 903421.0, 
-       "amount2015": 906850.0, 
-       "name": "Revenue Administration", 
-       "change": -0.0037812207
-      }, 
-      {
-       "amount2016": 701712.0, 
-       "amount2015": 582175.0, 
-       "name": "Revenue Services", 
-       "change": 0.2053282948
-      }
-     ]
-    }
-   ], 
-   "name": "Finance", 
-   "desc": "this is test text for the department: Finance"
-  }, 
-  {
-   "children": [
-    {
-     "name": "Admin. Services Division", 
      "children": [
       {
        "amount2016": 1153753.0, 
@@ -911,33 +415,11 @@
        "name": "Permits/Code Enforcement 2510", 
        "change": 0.0462560477
       }
-     ]
+     ], 
+     "name": "Admin. Services Division", 
+     "desc": "Responsible for providing department wide support\nthrough the management of programs that include: fire\nprevention activities, human resources, professional\nstandards, and training."
     }, 
     {
-     "name": "Fire Chief Division", 
-     "children": [
-      {
-       "amount2016": 542809.0, 
-       "amount2015": 439122.0, 
-       "name": "Fiscal", 
-       "change": 0.2361234463
-      }, 
-      {
-       "amount2016": 1079560.0, 
-       "amount2015": 859186.0, 
-       "name": "Office of the Fire Chief Adm", 
-       "change": 0.2564916095
-      }, 
-      {
-       "amount2016": 231648.0, 
-       "amount2015": 224056.0, 
-       "name": "Special Projects", 
-       "change": 0.033884386
-      }
-     ]
-    }, 
-    {
-     "name": "Operations Division", 
      "children": [
       {
        "amount2016": 17518826.0, 
@@ -975,68 +457,45 @@
        "name": "Special Operations", 
        "change": 0.1410290276
       }
+     ], 
+     "name": "Operations Division", 
+     "desc": "Responsible for management of emergency response\nresources including shift operations, emergency\nmedical services, and special operations."
+    }, 
+    {
+     "name": "Other", 
+     "children": [
+      {
+       "name": "Fire Chief Division", 
+       "children": [
+        {
+         "amount2016": 542809.0, 
+         "amount2015": 439122.0, 
+         "name": "Fiscal", 
+         "change": 0.2361234463
+        }, 
+        {
+         "amount2016": 1079560.0, 
+         "amount2015": 859186.0, 
+         "name": "Office of the Fire Chief Adm", 
+         "change": 0.2564916095
+        }, 
+        {
+         "amount2016": 231648.0, 
+         "amount2015": 224056.0, 
+         "name": "Special Projects", 
+         "change": 0.033884386
+        }
+       ]
+      }
      ]
     }
    ], 
    "name": "Fire", 
-   "desc": "this is test text for the department: Fire"
+   "desc": "The Fire Department first began serving the citizens of Sacramento in 1850 as a volunteer organization. In\n1872, they became the first paid professional fire department west of the Mississippi. The Department\nresponds to many types of emergencies including fires, emergency medical calls, hazardous materials\nincidents, and specialized rescues, such as water, vertical, confined space, and animal rescues. The\nDepartment also provides fire code enforcement, public education, and fire investigation."
   }, 
   {
    "children": [
     {
-     "name": "311 Division", 
-     "children": [
-      {
-       "amount2016": 2074743.0, 
-       "amount2015": 1767278.0, 
-       "name": "Sacramento City 311", 
-       "change": 0.17397659
-      }
-     ]
-    }, 
-    {
-     "name": "Animal Care Services Division", 
-     "children": [
-      {
-       "amount2016": 2197421.0, 
-       "amount2015": 1731589.0, 
-       "name": "Animal Care / Shelter", 
-       "change": 0.269019958
-      }, 
-      {
-       "amount2016": 906694.0, 
-       "amount2015": 777350.0, 
-       "name": "Animal Care Administration", 
-       "change": 0.1663909436
-      }, 
-      {
-       "amount2016": null, 
-       "amount2015": 0.0, 
-       "name": "Animal Care Customer Service", 
-       "change": null
-      }, 
-      {
-       "amount2016": null, 
-       "amount2015": 0.0, 
-       "name": "Animal Care Vet Clinic", 
-       "change": null
-      }, 
-      {
-       "amount2016": null, 
-       "amount2015": 0.0, 
-       "name": "Animal Care Volunteer/Outreach", 
-       "change": null
-      }, 
-      {
-       "amount2016": 922200.0, 
-       "amount2015": 860432.0, 
-       "name": "Animal Enforcement/Field Svcs", 
-       "change": 0.0717871953
-      }
-     ]
-    }, 
-    {
-     "name": "Facilities & Real Prop Mgmt Division", 
      "children": [
       {
        "amount2016": -32413.0, 
@@ -1086,10 +545,11 @@
        "name": "Real Estate/Asset Management", 
        "change": -0.1523689628
       }
-     ]
+     ], 
+     "name": "Facilities & Real Prop Mgmt Division", 
+     "desc": "facility maintenance, design and\nconstruction, real estate, and mail services"
     }, 
     {
-     "name": "Fleet Management Division", 
      "children": [
       {
        "amount2016": 203701.0, 
@@ -1139,27 +599,11 @@
        "name": "Rooney Fleet Maintenance", 
        "change": -0.223006159
       }
-     ]
+     ], 
+     "name": "Fleet Management Division", 
+     "desc": "purchases, maintenance, and management"
     }, 
     {
-     "name": "Office of the Director Division", 
-     "children": [
-      {
-       "amount2016": 122881.0, 
-       "amount2015": 122881.0, 
-       "name": "Department-Wide Technology", 
-       "change": 0.0
-      }, 
-      {
-       "amount2016": 1464237.0, 
-       "amount2015": 920276.0, 
-       "name": "Office of the Director - DGS", 
-       "change": 0.5910846311
-      }
-     ]
-    }, 
-    {
-     "name": "Solid Waste and Recycling Division", 
      "children": [
       {
        "amount2016": 1054305.0, 
@@ -1227,16 +671,91 @@
        "name": "Street Sweeping", 
        "change": 0.302144232
       }
+     ], 
+     "name": "Solid Waste and Recycling Division", 
+     "desc": "Recycling and refuse collection, yard waste\ncollection, household hazardous waste collection, household junk pickup, street\nsweeping, illegal dumping cleanup, and landfill post-closure maintenance and\nmonitoring."
+    }, 
+    {
+     "name": "Other", 
+     "children": [
+      {
+       "name": "311 Division", 
+       "children": [
+        {
+         "amount2016": 2074743.0, 
+         "amount2015": 1767278.0, 
+         "name": "Sacramento City 311", 
+         "change": 0.17397659
+        }
+       ]
+      }, 
+      {
+       "name": "Animal Care Services Division", 
+       "children": [
+        {
+         "amount2016": 2197421.0, 
+         "amount2015": 1731589.0, 
+         "name": "Animal Care / Shelter", 
+         "change": 0.269019958
+        }, 
+        {
+         "amount2016": 906694.0, 
+         "amount2015": 777350.0, 
+         "name": "Animal Care Administration", 
+         "change": 0.1663909436
+        }, 
+        {
+         "amount2016": null, 
+         "amount2015": 0.0, 
+         "name": "Animal Care Customer Service", 
+         "change": null
+        }, 
+        {
+         "amount2016": null, 
+         "amount2015": 0.0, 
+         "name": "Animal Care Vet Clinic", 
+         "change": null
+        }, 
+        {
+         "amount2016": null, 
+         "amount2015": 0.0, 
+         "name": "Animal Care Volunteer/Outreach", 
+         "change": null
+        }, 
+        {
+         "amount2016": 922200.0, 
+         "amount2015": 860432.0, 
+         "name": "Animal Enforcement/Field Svcs", 
+         "change": 0.0717871953
+        }
+       ]
+      }, 
+      {
+       "name": "Office of the Director Division", 
+       "children": [
+        {
+         "amount2016": 122881.0, 
+         "amount2015": 122881.0, 
+         "name": "Department-Wide Technology", 
+         "change": 0.0
+        }, 
+        {
+         "amount2016": 1464237.0, 
+         "amount2015": 920276.0, 
+         "name": "Office of the Director - DGS", 
+         "change": 0.5910846311
+        }
+       ]
+      }
      ]
     }
    ], 
    "name": "General Services", 
-   "desc": "this is test text for the department: General Services"
+   "desc": "The General Services Department provides: Animal Care Services \u2013 enforcement, sheltering, adoption, and education; Facilities and Real Property Management \u2013 facility maintenance, design and\nconstruction, real estate, and mail services;  Fleet Services \u2013 purchases, maintenance, and management; Recycling and Solid Waste Services \u2013 recycling and refuse collection, yard waste\ncollection, household hazardous waste collection, household junk pickup, street\nsweeping, illegal dumping cleanup, and landfill post-closure maintenance and\nmonitoring; Sacramento City 311 \u2013 call center operations."
   }, 
   {
    "children": [
     {
-     "name": "HR Administration Division", 
      "children": [
       {
        "amount2016": 0.0, 
@@ -1256,21 +775,11 @@
        "name": "HR Administration", 
        "change": 0.1043180127
       }
-     ]
+     ], 
+     "name": "HR Administration Division", 
+     "desc": ""
     }, 
     {
-     "name": "Labor Relations Division", 
-     "children": [
-      {
-       "amount2016": 723872.0, 
-       "amount2015": 697330.0, 
-       "name": "Labor Relations Operations", 
-       "change": 0.0380623234
-      }
-     ]
-    }, 
-    {
-     "name": "Risk Management Administration Division", 
      "children": [
       {
        "amount2016": 1470070.0, 
@@ -1302,10 +811,11 @@
        "name": "SRDTA", 
        "change": 0.05193716
       }
-     ]
+     ], 
+     "name": "Risk Management Administration Division", 
+     "desc": ""
     }, 
     {
-     "name": "Workers' Compensation Division", 
      "children": [
       {
        "amount2016": 2586209.0, 
@@ -1313,440 +823,33 @@
        "name": "Workers' Compensation", 
        "change": 0.0299263817
       }
+     ], 
+     "name": "Workers' Compensation Division", 
+     "desc": ""
+    }, 
+    {
+     "name": "Other", 
+     "children": [
+      {
+       "name": "Labor Relations Division", 
+       "children": [
+        {
+         "amount2016": 723872.0, 
+         "amount2015": 697330.0, 
+         "name": "Labor Relations Operations", 
+         "change": 0.0380623234
+        }
+       ]
+      }
      ]
     }
    ], 
    "name": "Human Resources", 
-   "desc": "this is test text for the department: Human Resources"
+   "desc": "The Department of Human Resources is responsible for attracting, retaining, and developing a highly\nqualified and diverse City workforce, and implementing organizational improvements. Human\nResources provides the following key services: recruiting, testing, classification and compensation;\nbenefits and retirement; safety, loss prevention, and workers\u2019 compensation; equal employment\nopportunity and Americans with Disabilities Act (ADA) coordination; negotiation and implementation of\nlabor agreements, discipline, and grievance administration; and citywide volunteer coordination."
   }, 
   {
    "children": [
     {
-     "name": "Enterprise Applications Management Division", 
-     "children": [
-      {
-       "amount2016": 2316206.0, 
-       "amount2015": 1962662.0, 
-       "name": "Enterprise Applications Management", 
-       "change": 0.1801349392
-      }
-     ]
-    }, 
-    {
-     "name": "IT Business Management Division", 
-     "children": [
-      {
-       "amount2016": 443700.0, 
-       "amount2015": 431248.0, 
-       "name": "Citywide IT Systems", 
-       "change": 0.0288743368
-      }, 
-      {
-       "amount2016": -294000.0, 
-       "amount2015": -296000.0, 
-       "name": "Consolidated IT Service Billing", 
-       "change": -0.0067567568
-      }, 
-      {
-       "amount2016": 1271235.0, 
-       "amount2015": 2629071.0, 
-       "name": "IT Business Management", 
-       "change": -0.5164698861
-      }
-     ]
-    }, 
-    {
-     "name": "IT Regional Support Division", 
-     "children": [
-      {
-       "amount2016": 857886.0, 
-       "amount2015": 814263.0, 
-       "name": "IT Regional Support", 
-       "change": 0.0535735997
-      }
-     ]
-    }, 
-    {
-     "name": "Innovation Team Division", 
-     "children": [
-      {
-       "amount2016": 1507086.0, 
-       "amount2015": null, 
-       "name": "Innovation Team", 
-       "change": null
-      }
-     ]
-    }, 
-    {
-     "name": "Technology Infrastructure Services Division", 
-     "children": [
-      {
-       "amount2016": 2447111.0, 
-       "amount2015": 2220538.0, 
-       "name": "Technology Infrastructure Services", 
-       "change": 0.1020351825
-      }
-     ]
-    }
-   ], 
-   "name": "Information Technology", 
-   "desc": "this is test text for the department: Information Technology"
-  }, 
-  {
-   "children": [
-    {
-     "name": "City Council District 1", 
-     "children": [
-      {
-       "amount2016": 424193.0, 
-       "amount2015": 400000.0, 
-       "name": "Council District 1", 
-       "change": 0.0604825
-      }
-     ]
-    }, 
-    {
-     "name": "City Council District 2", 
-     "children": [
-      {
-       "amount2016": 424193.0, 
-       "amount2015": 400000.0, 
-       "name": "Council District 2", 
-       "change": 0.0604825
-      }
-     ]
-    }, 
-    {
-     "name": "City Council District 3", 
-     "children": [
-      {
-       "amount2016": 424193.0, 
-       "amount2015": 166666.0, 
-       "name": "Council District 3", 
-       "change": 1.5451681807
-      }
-     ]
-    }, 
-    {
-     "name": "City Council District 4", 
-     "children": [
-      {
-       "amount2016": 424193.0, 
-       "amount2015": 400000.0, 
-       "name": "Council District 4", 
-       "change": 0.0604825
-      }
-     ]
-    }, 
-    {
-     "name": "City Council District 5", 
-     "children": [
-      {
-       "amount2016": 424193.0, 
-       "amount2015": 400000.0, 
-       "name": "Council District 5", 
-       "change": 0.0604825
-      }
-     ]
-    }, 
-    {
-     "name": "City Council District 6", 
-     "children": [
-      {
-       "amount2016": 424193.0, 
-       "amount2015": 166667.0, 
-       "name": "Council District 6", 
-       "change": 1.5451529097
-      }
-     ]
-    }, 
-    {
-     "name": "City Council District 7", 
-     "children": [
-      {
-       "amount2016": 424193.0, 
-       "amount2015": 166665.0, 
-       "name": "Council District 7", 
-       "change": 1.5451834518
-      }
-     ]
-    }, 
-    {
-     "name": "City Council District 8", 
-     "children": [
-      {
-       "amount2016": 424193.0, 
-       "amount2015": 166666.0, 
-       "name": "Council District 8", 
-       "change": 1.5451681807
-      }
-     ]
-    }, 
-    {
-     "name": "Elections", 
-     "children": [
-      {
-       "amount2016": null, 
-       "amount2015": 933332.0, 
-       "name": "City-wide Elections", 
-       "change": null
-      }
-     ]
-    }, 
-    {
-     "name": "Independent Budget Analyst Division", 
-     "children": [
-      {
-       "amount2016": 446281.0, 
-       "amount2015": null, 
-       "name": "Independent Budget Analyst", 
-       "change": null
-      }
-     ]
-    }, 
-    {
-     "name": "Mayor Council Operations Division", 
-     "children": [
-      {
-       "amount2016": 0.0, 
-       "amount2015": 0.0, 
-       "name": "Council Operations", 
-       "change": null
-      }
-     ]
-    }, 
-    {
-     "name": "Office of the City Auditor Division", 
-     "children": [
-      {
-       "amount2016": 581313.0, 
-       "amount2015": 655336.0, 
-       "name": "Office of the City Auditor", 
-       "change": -0.1129542708
-      }
-     ]
-    }, 
-    {
-     "name": "Office of the Mayor", 
-     "children": [
-      {
-       "amount2016": 1164480.0, 
-       "amount2015": 939999.0, 
-       "name": "Mayor", 
-       "change": 0.2388098285
-      }
-     ]
-    }
-   ], 
-   "name": "Mayor/Council", 
-   "desc": "this is test text for the department: Mayor/Council"
-  }, 
-  {
-   "children": [
-    {
-     "name": "Non-Appropriated Division", 
-     "children": [
-      {
-       "amount2016": -15661360.0, 
-       "amount2015": -14873700.0, 
-       "name": "Non-Department DeptID", 
-       "change": 0.0529565609
-      }
-     ]
-    }
-   ], 
-   "name": "Non-Appropriated", 
-   "desc": "this is test text for the department: Non-Appropriated"
-  }, 
-  {
-   "children": [
-    {
-     "name": "4th R Division", 
-     "children": [
-      {
-       "amount2016": 5182043.0, 
-       "amount2015": 5717041.0, 
-       "name": "4th R", 
-       "change": -0.0935795283
-      }
-     ]
-    }, 
-    {
-     "name": "Administrative Services Division", 
-     "children": [
-      {
-       "amount2016": 906329.0, 
-       "amount2015": 830033.0, 
-       "name": "Fiscal and Management Services", 
-       "change": 0.0919192369
-      }, 
-      {
-       "amount2016": 189761.0, 
-       "amount2015": 184320.0, 
-       "name": "Golf Admin", 
-       "change": 0.0295193142
-      }, 
-      {
-       "amount2016": 516057.0, 
-       "amount2015": 486836.0, 
-       "name": "Technology Service", 
-       "change": 0.0600222662
-      }, 
-      {
-       "amount2016": 50196.0, 
-       "amount2015": 37555.0, 
-       "name": "Wm. Land Park Golf Course", 
-       "change": 0.3365996538
-      }
-     ]
-    }, 
-    {
-     "name": "Neighborhood Services Division", 
-     "children": [
-      {
-       "amount2016": 680150.0, 
-       "amount2015": 1787819.0, 
-       "name": "Neighborhood Services", 
-       "change": -0.6195643966
-      }
-     ]
-    }, 
-    {
-     "name": "Park Operations Division", 
-     "children": [
-      {
-       "amount2016": 214574.0, 
-       "amount2015": 190536.0, 
-       "name": "Historic City Cemetery", 
-       "change": 0.1261598858
-      }, 
-      {
-       "amount2016": 11762224.0, 
-       "amount2015": 11691758.0, 
-       "name": "Park Operations Administration", 
-       "change": 0.0060269807
-      }
-     ]
-    }, 
-    {
-     "name": "Park Planning and Development Division", 
-     "children": [
-      {
-       "amount2016": -21769.0, 
-       "amount2015": -50070.0, 
-       "name": "Park Development Services", 
-       "change": -0.5652286798
-      }
-     ]
-    }, 
-    {
-     "name": "Recreation Operations Division", 
-     "children": [
-      {
-       "amount2016": 400820.0, 
-       "amount2015": 384590.0, 
-       "name": "Access Leisure", 
-       "change": 0.0422007853
-      }, 
-      {
-       "amount2016": 1281962.0, 
-       "amount2015": 1325452.0, 
-       "name": "Aquatics", 
-       "change": -0.0328114485
-      }, 
-      {
-       "amount2016": 618388.0, 
-       "amount2015": 458153.0, 
-       "name": "Camp Sacramento", 
-       "change": 0.3497412436
-      }, 
-      {
-       "amount2016": 12265.0, 
-       "amount2015": 12265.0, 
-       "name": "Children's Services", 
-       "change": 0.0
-      }, 
-      {
-       "amount2016": 2402689.0, 
-       "amount2015": 2345554.0, 
-       "name": "Community Centers", 
-       "change": 0.0243588508
-      }, 
-      {
-       "amount2016": 664113.0, 
-       "amount2015": 327243.0, 
-       "name": "Community Recreation Services", 
-       "change": 1.0294185055
-      }, 
-      {
-       "amount2016": null, 
-       "amount2015": 0.0, 
-       "name": "Cover The Kids", 
-       "change": null
-      }, 
-      {
-       "amount2016": 0.0, 
-       "amount2015": 81389.0, 
-       "name": "Crossing Guards", 
-       "change": -1.0
-      }, 
-      {
-       "amount2016": 1054052.0, 
-       "amount2015": 1258387.0, 
-       "name": "Older Adult Services", 
-       "change": -0.1623785052
-      }, 
-      {
-       "amount2016": 760599.0, 
-       "amount2015": 719015.0, 
-       "name": "Park Safety Services", 
-       "change": 0.0578346766
-      }, 
-      {
-       "amount2016": 1223010.0, 
-       "amount2015": null, 
-       "name": "Permitting and Events", 
-       "change": null
-      }, 
-      {
-       "amount2016": -198814.0, 
-       "amount2015": 655972.0, 
-       "name": "Recreation Administration", 
-       "change": -1.3030830584
-      }, 
-      {
-       "amount2016": 815837.0, 
-       "amount2015": 760661.0, 
-       "name": "Teen Services", 
-       "change": 0.072536912
-      }, 
-      {
-       "amount2016": 805799.0, 
-       "amount2015": 692733.0, 
-       "name": "Youth Employment Services", 
-       "change": 0.1632172857
-      }
-     ]
-    }, 
-    {
-     "name": "START Division", 
-     "children": [
-      {
-       "amount2016": 2180813.0, 
-       "amount2015": 4929780.0, 
-       "name": "START", 
-       "change": -0.557624681
-      }
-     ]
-    }
-   ], 
-   "name": "Parks and Recreation", 
-   "desc": "this is test text for the department: Parks and Recreation"
-  }, 
-  {
-   "children": [
-    {
-     "name": "Field Services Division", 
      "children": [
       {
        "amount2016": 258387.0, 
@@ -1844,10 +947,11 @@
        "name": "Training", 
        "change": 0.078957443
       }
-     ]
+     ], 
+     "name": "Field Services Division", 
+     "desc": "Responsible for Patrol and Communications."
     }, 
     {
-     "name": "Investigations Division", 
      "children": [
       {
        "amount2016": 3246703.0, 
@@ -1879,27 +983,11 @@
        "name": "Property Crimes", 
        "change": -0.0142485994
       }
-     ]
+     ], 
+     "name": "Investigations Division", 
+     "desc": "Responsible for developing information leading to the arrest of\ncriminal offenders. This office also oversees the Records and\nProperty Divisions."
     }, 
     {
-     "name": "Office of the Chief Division", 
-     "children": [
-      {
-       "amount2016": 1271668.0, 
-       "amount2015": 1183410.0, 
-       "name": "Internal Affairs/Prof Standard", 
-       "change": 0.0745793934
-      }, 
-      {
-       "amount2016": 2977039.0, 
-       "amount2015": 2904073.0, 
-       "name": "Office of the Chief-Admin", 
-       "change": 0.0251254015
-      }
-     ]
-    }, 
-    {
-     "name": "Operational Services Division", 
      "children": [
       {
        "amount2016": 8920891.0, 
@@ -1967,51 +1055,39 @@
        "name": "South Command", 
        "change": -0.0975758156
       }
+     ], 
+     "name": "Operational Services Division", 
+     "desc": "Responsible for Contract Services, Training, Public Safety\nInformation Technology, and the Metro Division, which\nincludes specialty teams such as the K9 Unit and Special\nWeapons and Tactics (SWAT) team."
+    }, 
+    {
+     "name": "Other", 
+     "children": [
+      {
+       "name": "Office of the Chief Division", 
+       "children": [
+        {
+         "amount2016": 1271668.0, 
+         "amount2015": 1183410.0, 
+         "name": "Internal Affairs/Prof Standard", 
+         "change": 0.0745793934
+        }, 
+        {
+         "amount2016": 2977039.0, 
+         "amount2015": 2904073.0, 
+         "name": "Office of the Chief-Admin", 
+         "change": 0.0251254015
+        }
+       ]
+      }
      ]
     }
    ], 
    "name": "Police", 
-   "desc": "this is test text for the department: Police"
+   "desc": "The mission of the Police Department is to work in partnership with the community to protect life and\nproperty, solve neighborhood problems, and enhance the quality of life in our City."
   }, 
   {
    "children": [
     {
-     "name": "Engineering Services Division - Public Works", 
-     "children": [
-      {
-       "amount2016": -213699.0, 
-       "amount2015": 93456.0, 
-       "name": "Civil & Electrical Design", 
-       "change": -3.2866268618
-      }, 
-      {
-       "amount2016": -872962.0, 
-       "amount2015": -1155605.0, 
-       "name": "Construction Inspect & Survey", 
-       "change": -0.2445844385
-      }, 
-      {
-       "amount2016": 20762.0, 
-       "amount2015": 67950.0, 
-       "name": "Development Engineering", 
-       "change": -0.6944518028
-      }, 
-      {
-       "amount2016": 912207.0, 
-       "amount2015": 812346.0, 
-       "name": "Engineering Services Admin", 
-       "change": 0.122929146
-      }, 
-      {
-       "amount2016": -39343.0, 
-       "amount2015": -39729.0, 
-       "name": "Funding & Project Development", 
-       "change": -0.0097158247
-      }
-     ]
-    }, 
-    {
-     "name": "Maintenance Services Division", 
      "children": [
       {
        "amount2016": 1911535.0, 
@@ -2049,21 +1125,11 @@
        "name": "Urban Forestry", 
        "change": 0.0123776476
       }
-     ]
+     ], 
+     "name": "Maintenance Services Division", 
+     "desc": "Responsible for roads and bridges, concrete assets, streetscapes,\nadvanced planning, tree health and maintenance."
     }, 
     {
-     "name": "Marina Division", 
-     "children": [
-      {
-       "amount2016": 725996.0, 
-       "amount2015": 694802.0, 
-       "name": "Sac Marina", 
-       "change": 0.0448962438
-      }
-     ]
-    }, 
-    {
-     "name": "Office of the Director - Public Works", 
      "children": [
       {
        "amount2016": 699284.0, 
@@ -2089,10 +1155,11 @@
        "name": "Public Works Business Operations", 
        "change": 0.1579719468
       }
-     ]
+     ], 
+     "name": "Office of the Director - Public Works", 
+     "desc": "Responsible for long-range and regional transportation planning,\nspecial projects, transportation policy, department-wide support,\noperation of the Sacramento Marina (the largest off-river marina in\nthe region along the Sacramento River), and employee enrichment"
     }, 
     {
-     "name": "Parking Services Division", 
      "children": [
       {
        "amount2016": 214029.0, 
@@ -2208,10 +1275,11 @@
        "name": "Tower Bridge Garage", 
        "change": 0.0546309471
       }
-     ]
+     ], 
+     "name": "Parking Services Division", 
+     "desc": "Responsible for parking enforcement, parking meters, retail lease\nspace, and parking garages"
     }, 
     {
-     "name": "Transportation Division", 
      "children": [
       {
        "amount2016": 3931815.0, 
@@ -2237,16 +1305,68 @@
        "name": "Traffic Signs and  Markings", 
        "change": 0.0083870093
       }
+     ], 
+     "name": "Transportation Division", 
+     "desc": "Responsible for traffic operations, design, management, studies,\nentitlements, education, investigation, traffic signs and markings,\nand traffic signals and street lighting"
+    }, 
+    {
+     "name": "Other", 
+     "children": [
+      {
+       "name": "Engineering Services Division - Public Works", 
+       "children": [
+        {
+         "amount2016": -213699.0, 
+         "amount2015": 93456.0, 
+         "name": "Civil & Electrical Design", 
+         "change": -3.2866268618
+        }, 
+        {
+         "amount2016": -872962.0, 
+         "amount2015": -1155605.0, 
+         "name": "Construction Inspect & Survey", 
+         "change": -0.2445844385
+        }, 
+        {
+         "amount2016": 20762.0, 
+         "amount2015": 67950.0, 
+         "name": "Development Engineering", 
+         "change": -0.6944518028
+        }, 
+        {
+         "amount2016": 912207.0, 
+         "amount2015": 812346.0, 
+         "name": "Engineering Services Admin", 
+         "change": 0.122929146
+        }, 
+        {
+         "amount2016": -39343.0, 
+         "amount2015": -39729.0, 
+         "name": "Funding & Project Development", 
+         "change": -0.0097158247
+        }
+       ]
+      }, 
+      {
+       "name": "Marina Division", 
+       "children": [
+        {
+         "amount2016": 725996.0, 
+         "amount2015": 694802.0, 
+         "name": "Sac Marina", 
+         "change": 0.0448962438
+        }
+       ]
+      }
      ]
     }
    ], 
    "name": "Public Works", 
-   "desc": "this is test text for the department: Public Works"
+   "desc": "The Public Works Department focuses on delivering public projects in a timely manner, addressing\nthe parking needs of residents and commuters, maintaining transportation infrastructure, planning for\nlong-range transportation needs, and maintaining the City\u2019s urban forest."
   }, 
   {
    "children": [
     {
-     "name": "Business & Integrated Planning Division", 
      "children": [
       {
        "amount2016": 2852220.0, 
@@ -2284,10 +1404,11 @@
        "name": "Utilities Customer Service", 
        "change": 0.0522761982
       }
-     ]
+     ], 
+     "name": "Business & Integrated Planning Division", 
+     "desc": ""
     }, 
     {
-     "name": "Engineering  & Water Services Division", 
      "children": [
       {
        "amount2016": 446166.0, 
@@ -2349,10 +1470,11 @@
        "name": "Water Quality Lab and R&D", 
        "change": 0.0534280565
       }
-     ]
+     ], 
+     "name": "Engineering  & Water Services Division", 
+     "desc": ""
     }, 
     {
-     "name": "Office of the Director - DOU", 
      "children": [
       {
        "amount2016": 819290.0, 
@@ -2384,10 +1506,11 @@
        "name": "Public Education Outreach", 
        "change": 0.0857987446
       }
-     ]
+     ], 
+     "name": "Office of the Director - DOU", 
+     "desc": ""
     }, 
     {
-     "name": "Operations & Maintenance Division", 
      "children": [
       {
        "amount2016": 6952421.0, 
@@ -2467,11 +1590,1058 @@
        "name": "Water Production Operations", 
        "change": -0.0235215853
       }
-     ]
+     ], 
+     "name": "Operations & Maintenance Division", 
+     "desc": ""
+    }, 
+    {
+     "name": "Other", 
+     "children": []
     }
    ], 
    "name": "Utilities", 
-   "desc": "this is test text for the department: Utilities"
+   "desc": "The Department of Utilities (DOU) provides and maintains water, wastewater, and storm drainage\nservices and facilities for its customers, city ratepayers. These services are crucial to safeguard the\nhealth and safety of the public, support economic development, protect the environment, and improve\nthe quality of life in our city. DOU works in conjunction with other City departments as well as regional,\nstate, and federal agencies in the maintenance, development, and rehabilitation of water resources\ninfrastructure."
+  }, 
+  {
+   "name": "Other", 
+   "children": [
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "amount2016": 7180749.0, 
+         "amount2015": 6663089.0, 
+         "name": "City Attorney Department", 
+         "change": 0.0776906927
+        }
+       ], 
+       "name": "City Attorney Division", 
+       "desc": ""
+      }, 
+      {
+       "name": "Other", 
+       "children": []
+      }
+     ], 
+     "name": "City Attorney", 
+     "desc": "The City Attorney serves as the legal advisor to the City Council, City Officers and Department staff,\nboards and commissions as well as the Advisory, Investment and Fiscal Management Board, the\nSacramento City Financing Authority, and Sacramento Regional Arts Facilities Financing Authority.\nThe City Attorney\u2019s Office provides legal representation in criminal, civil and administrative litigation,\nrenders advice and counsel, and prepares ordinances, resolutions, contracts, opinions and other\nlegal documents for the City and the related entities."
+    }, 
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "amount2016": 1491006.0, 
+         "amount2015": 1406518.0, 
+         "name": "City Clerk Operations", 
+         "change": 0.0600689078
+        }
+       ], 
+       "name": "City Clerk Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 332766.0, 
+         "amount2015": 354871.0, 
+         "name": "Mayor Council Operations", 
+         "change": -0.0622902407
+        }
+       ], 
+       "name": "Mayor-Council Operations Division", 
+       "desc": ""
+      }, 
+      {
+       "name": "Other", 
+       "children": []
+      }
+     ], 
+     "name": "City Clerk", 
+     "desc": "The City Clerk serves as the Clerk of the City Council and is responsible for the preparation of\nagendas, the recording and maintenance of all Council actions, and the preparation and filing of\npublic notices."
+    }, 
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "amount2016": 2899010.0, 
+         "amount2015": 2392943.0, 
+         "name": "Executive Office", 
+         "change": 0.2114830984
+        }
+       ], 
+       "name": "City Manager Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 291236.0, 
+         "amount2015": 328765.0, 
+         "name": "Media and Communications", 
+         "change": -0.1141514456
+        }
+       ], 
+       "name": "Media & Communications Division", 
+       "desc": "The City\u2019s media and communications team provides timely, accurate, and\nstrategic communication services to the public."
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 171655.0, 
+         "amount2015": 175521.0, 
+         "name": "Public Safety Accountability", 
+         "change": -0.0220258545
+        }
+       ], 
+       "name": "Public Safety Accountability Division", 
+       "desc": "The Office of Public Safety Accountability provides an independent review of\ncomplaints involving police and fire employees as a means of furthering\nrelationships between the City\u2019s public safety departments and the community."
+      }, 
+      {
+       "name": "Other", 
+       "children": []
+      }
+     ], 
+     "name": "City Manager", 
+     "desc": "The City Manager is the Chief Executive Officer of the City and provides the leadership and\ndirection for the operation and management of all City departments. The City Manager is\nresponsible for the enforcement of all laws and ordinances, oversight of all municipal programs\nand services, and making recommendations to the Mayor and City Council concerning the\noperation, annual budget, and future needs of the City. The City Manager\u2019s Office facilitates the\neffective implementation of the City Council\u2019s policies and priorities."
+    }, 
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "amount2016": 2279065.0, 
+         "amount2015": 2045024.0, 
+         "name": "City Treasurer Operations", 
+         "change": 0.1144441337
+        }
+       ], 
+       "name": "City Treasurer Division", 
+       "desc": ""
+      }, 
+      {
+       "name": "Other", 
+       "children": []
+      }
+     ], 
+     "name": "City Treasurer", 
+     "desc": "The City Treasurer is responsible for the deposit and\ninvestment of all City funds. The City Charter also provides that the City Treasurer keep the City\nCouncil informed regarding the status of investments and City funds. Additionally, City Council has\ndirected that the City Treasurer shall also provide public finance and debt issuance services for the\nCity."
+    }, 
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "amount2016": 2512365.0, 
+         "amount2015": 2455015.0, 
+         "name": "Administrative Services", 
+         "change": 0.0233603461
+        }
+       ], 
+       "name": "Administration Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 3677390.0, 
+         "amount2015": 2922522.0, 
+         "name": "Building", 
+         "change": 0.2582933507
+        }, 
+        {
+         "amount2016": 1937164.0, 
+         "amount2015": 1497074.0, 
+         "name": "Building Plan Check", 
+         "change": 0.2939667645
+        }
+       ], 
+       "name": "Building Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 251872.0, 
+         "amount2015": 393285.0, 
+         "name": "Business Compliance Department", 
+         "change": -0.3595687606
+        }, 
+        {
+         "amount2016": 3616682.0, 
+         "amount2015": 3411188.0, 
+         "name": "Housing & Dangerous Buildings", 
+         "change": 0.0602411828
+        }, 
+        {
+         "amount2016": 2814199.0, 
+         "amount2015": 3253040.0, 
+         "name": "Neighborhood Code Compliance", 
+         "change": -0.1349018149
+        }, 
+        {
+         "amount2016": 1167272.0, 
+         "amount2015": 1147368.0, 
+         "name": "Rental Housing Inspection Program", 
+         "change": 0.0173475293
+        }
+       ], 
+       "name": "Code Enforcement Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 2246938.0, 
+         "amount2015": 1407993.0, 
+         "name": "Customer Service", 
+         "change": 0.5958445816
+        }
+       ], 
+       "name": "Customer Service Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 2808229.0, 
+         "amount2015": 1632442.0, 
+         "name": "Current Planning", 
+         "change": 0.7202626495
+        }, 
+        {
+         "amount2016": 563942.0, 
+         "amount2015": 751768.0, 
+         "name": "Long Range", 
+         "change": -0.2498456971
+        }, 
+        {
+         "amount2016": 0.0, 
+         "amount2015": 576463.0, 
+         "name": "Planning Design/Preservation", 
+         "change": -1.0
+        }, 
+        {
+         "amount2016": 91911.0, 
+         "amount2015": 87332.0, 
+         "name": "Planning Environmental", 
+         "change": 0.0524320982
+        }, 
+        {
+         "amount2016": 724090.0, 
+         "amount2015": 697295.0, 
+         "name": "Zoning", 
+         "change": 0.0384270646
+        }
+       ], 
+       "name": "Planning Division", 
+       "desc": ""
+      }, 
+      {
+       "name": "Other", 
+       "children": []
+      }
+     ], 
+     "name": "Community Development", 
+     "desc": "The Community Development Department plans for the future growth, development, and prosperity\nof Sacramento; reviews and approves development applications and building permits; and responds to\nissues related to the health and safety code while ensuring well-maintained properties and preserving\nthe existing housing stock."
+    }, 
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "amount2016": 1703298.0, 
+         "amount2015": 1548581.0, 
+         "name": "CCS Administration", 
+         "change": 0.0999088843
+        }, 
+        {
+         "amount2016": 45000.0, 
+         "amount2015": 45000.0, 
+         "name": "Contract Administration", 
+         "change": 0.0
+        }
+       ], 
+       "name": "CCS Administration Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 523188.0, 
+         "amount2015": 453306.0, 
+         "name": "Box Office", 
+         "change": 0.1541607656
+        }, 
+        {
+         "amount2016": 1021971.0, 
+         "amount2015": 943403.0, 
+         "name": "Conv Ctr Admn/Events Svcs", 
+         "change": 0.083281482
+        }, 
+        {
+         "amount2016": 3206738.0, 
+         "amount2015": 3307010.0, 
+         "name": "Conv Ctr Operational Admn", 
+         "change": -0.0303210453
+        }, 
+        {
+         "amount2016": 6631139.0, 
+         "amount2015": 6283258.0, 
+         "name": "Operations", 
+         "change": 0.0553663402
+        }
+       ], 
+       "name": "Convention Center Complex Division", 
+       "desc": "The Convention Center complex provides both ticketed and free events to the public. Ticketed events\ninclude theater performances and consumer shows, such as the Broadway Series, home-shows,\nconcerts, conventions, and festivals."
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 1934148.0, 
+         "amount2015": 1797756.0, 
+         "name": "Crocker Art Museum", 
+         "change": 0.0758679153
+        }
+       ], 
+       "name": "Crocker Art Museum Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 1422906.0, 
+         "amount2015": 1399297.0, 
+         "name": "Old Sacramento", 
+         "change": 0.0168720436
+        }
+       ], 
+       "name": "Old Sacramento Division", 
+       "desc": ""
+      }, 
+      {
+       "name": "Other", 
+       "children": [
+        {
+         "name": "Center for Sacramento History Division", 
+         "children": [
+          {
+           "amount2016": 432188.0, 
+           "amount2015": 417086.0, 
+           "name": "Center for Sacramento History", 
+           "change": 0.0362083599
+          }
+         ]
+        }, 
+        {
+         "name": "Fairytale Town Division", 
+         "children": [
+          {
+           "amount2016": 62245.0, 
+           "amount2015": 62245.0, 
+           "name": "Fairytale Town", 
+           "change": 0.0
+          }
+         ]
+        }, 
+        {
+         "name": "Metro Arts Commission Division", 
+         "children": [
+          {
+           "amount2016": 188853.0, 
+           "amount2015": 177930.0, 
+           "name": "Arts Education & Outreach", 
+           "change": 0.0613893104
+          }, 
+          {
+           "amount2016": 0.0, 
+           "amount2015": 0.0, 
+           "name": "Metro Arts-APP", 
+           "change": null
+          }, 
+          {
+           "amount2016": 176380.0, 
+           "amount2015": 180592.0, 
+           "name": "Metro Arts-Administration", 
+           "change": -0.0233232923
+          }, 
+          {
+           "amount2016": 54628.0, 
+           "amount2015": 40807.0, 
+           "name": "Metro Arts-Prog Contrib", 
+           "change": 0.3386918911
+          }
+         ]
+        }, 
+        {
+         "name": "Old City Cemetery Division", 
+         "children": [
+          {
+           "amount2016": 1883.0, 
+           "amount2015": null, 
+           "name": "City Cemetery", 
+           "change": null
+          }
+         ]
+        }, 
+        {
+         "name": "Powerhouse Science Center Division", 
+         "children": [
+          {
+           "amount2016": 238541.0, 
+           "amount2015": 238541.0, 
+           "name": "Powerhouse Science Center", 
+           "change": 0.0
+          }
+         ]
+        }, 
+        {
+         "name": "Sacramento History  Museum Division", 
+         "children": [
+          {
+           "amount2016": 236733.0, 
+           "amount2015": 236733.0, 
+           "name": "Sacramento History Museum", 
+           "change": 0.0
+          }
+         ]
+        }, 
+        {
+         "name": "Sacramento Zoo Division", 
+         "children": [
+          {
+           "amount2016": 527637.0, 
+           "amount2015": 510644.0, 
+           "name": "Sacramento Zoo", 
+           "change": 0.0332775867
+          }
+         ]
+        }
+       ]
+      }
+     ], 
+     "name": "Convention and Cultural Services", 
+     "desc": "The Convention and Cultural Services Department focuses on high quality service, continuous\ninvestment in the facilities, and strategic planning to ensure that the needs of our growing public \u2014 both\nnow and into the future are met. As key contributors to the region\u2019s quality of life, our \u201cSacramento\nTreasures\u201d serve residents and visitors alike. Significant economic impact can be attributed directly to\nthe attractions and programs offered.\nThe business activities are diverse and exciting, providing numerous educational, cultural, and\nrecreational experiences."
+    }, 
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "amount2016": 0.0, 
+         "amount2015": 1155371.0, 
+         "name": "Army Depot Utilities", 
+         "change": -1.0
+        }, 
+        {
+         "amount2016": 926270.0, 
+         "amount2015": 946996.0, 
+         "name": "Citywide Development", 
+         "change": -0.0218860481
+        }
+       ], 
+       "name": "Citywide Development Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 776540.0, 
+         "amount2015": 828326.0, 
+         "name": "Downtown Development", 
+         "change": -0.0625188633
+        }
+       ], 
+       "name": "Downtown Development Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 334143.0, 
+         "amount2015": 335134.0, 
+         "name": "Administration", 
+         "change": -0.0029570261
+        }
+       ], 
+       "name": "Economic Development Administration Division", 
+       "desc": ""
+      }, 
+      {
+       "name": "Other", 
+       "children": []
+      }
+     ], 
+     "name": "Economic Development", 
+     "desc": "The role of the Economic Development Department is to retain, attract, and grow businesses and\njobs in the city of Sacramento. The department promotes and facilitates investment and development\nopportunities within the city to revitalize targeted commercial areas."
+    }, 
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "amount2016": 3017649.0, 
+         "amount2015": 2816845.0, 
+         "name": "Accounting", 
+         "change": 0.0712868475
+        }
+       ], 
+       "name": "Accounting Division", 
+       "desc": "The Accounting Division processes payments to vendors, citywide payroll, and\nreimbursements for work-related expenses to City employees, produces various annual\nreports including the Comprehensive Annual Financial Report, and manages RASA."
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 1061952.0, 
+         "amount2015": 976857.0, 
+         "name": "Budget Office", 
+         "change": 0.0871110101
+        }
+       ], 
+       "name": "Budget Office Division", 
+       "desc": "The Budget Office assists departments with managing their operating and CIP budgets,\ncoordinates, and manages the development of the City Manager\u2019s annual proposed and\napproved operating and CIP budgets, quarterly financial reports to Council, serves as\nstaff to the Budget and Audit Committee, and assists with a variety of citywide special\nprojects and assignments."
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 582591.0, 
+         "amount2015": 572885.0, 
+         "name": "Finance Administration", 
+         "change": 0.0169423183
+        }
+       ], 
+       "name": "Finance Administration Division", 
+       "desc": "The Administration Division provides centralized administrative support to the goals,\nobjectives, policies, and priorities of the department."
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 643030.0, 
+         "amount2015": 616377.0, 
+         "name": "Procurement Services", 
+         "change": 0.0432413928
+        }
+       ], 
+       "name": "Procurement Division", 
+       "desc": "The Procurement Division is responsible for establishing procurement standards,\nensuring compliance with procurement policies and best practices, managing citywide\ncontracts, and assisting departments with contracts."
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 802316.0, 
+         "amount2015": 832570.0, 
+         "name": "Public Improvement Finance", 
+         "change": -0.0363380857
+        }
+       ], 
+       "name": "Public Improvement Finance Division", 
+       "desc": "The Public Improvement Finance Division is responsible for the formation and administration of special-purpose districts and finance plans."
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 407900.0, 
+         "amount2015": 397452.0, 
+         "name": "Business Permits", 
+         "change": 0.0262874511
+        }, 
+        {
+         "amount2016": 1062674.0, 
+         "amount2015": 1021908.0, 
+         "name": "Enforcement And Collections", 
+         "change": 0.0398920451
+        }, 
+        {
+         "amount2016": 903421.0, 
+         "amount2015": 906850.0, 
+         "name": "Revenue Administration", 
+         "change": -0.0037812207
+        }, 
+        {
+         "amount2016": 701712.0, 
+         "amount2015": 582175.0, 
+         "name": "Revenue Services", 
+         "change": 0.2053282948
+        }
+       ], 
+       "name": "Revenue Division", 
+       "desc": "The Revenue Division coordinates citywide billing and collection of major taxes, fees,\nand citations; audits and enforces a variety of City codes; and processes and issues\nbusiness operations tax (BOT) certificates and special operating permits."
+      }, 
+      {
+       "name": "Other", 
+       "children": []
+      }
+     ], 
+     "name": "Finance", 
+     "desc": "The Finance Department is responsible for overseeing the financial management of the City. The\nFinance Department currently provides accounting, budgeting, public improvement financing,\nprocurement, billing, collection, parking citation, and revenue collection services. Internal services and\nprograms include strategic planning and policy analysis."
+    }, 
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "amount2016": 2316206.0, 
+         "amount2015": 1962662.0, 
+         "name": "Enterprise Applications Management", 
+         "change": 0.1801349392
+        }
+       ], 
+       "name": "Enterprise Applications Management Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 443700.0, 
+         "amount2015": 431248.0, 
+         "name": "Citywide IT Systems", 
+         "change": 0.0288743368
+        }, 
+        {
+         "amount2016": -294000.0, 
+         "amount2015": -296000.0, 
+         "name": "Consolidated IT Service Billing", 
+         "change": -0.0067567568
+        }, 
+        {
+         "amount2016": 1271235.0, 
+         "amount2015": 2629071.0, 
+         "name": "IT Business Management", 
+         "change": -0.5164698861
+        }
+       ], 
+       "name": "IT Business Management Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 857886.0, 
+         "amount2015": 814263.0, 
+         "name": "IT Regional Support", 
+         "change": 0.0535735997
+        }
+       ], 
+       "name": "IT Regional Support Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 1507086.0, 
+         "amount2015": null, 
+         "name": "Innovation Team", 
+         "change": null
+        }
+       ], 
+       "name": "Innovation Team Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 2447111.0, 
+         "amount2015": 2220538.0, 
+         "name": "Technology Infrastructure Services", 
+         "change": 0.1020351825
+        }
+       ], 
+       "name": "Technology Infrastructure Services Division", 
+       "desc": ""
+      }, 
+      {
+       "name": "Other", 
+       "children": []
+      }
+     ], 
+     "name": "Information Technology", 
+     "desc": "The IT Department manages a full range of information technology and related services for all City\ndepartments and the public twenty-four hours a day, seven days a week. These IT systems,\ninfrastructure, and information range from relatively simple to extremely complex."
+    }, 
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "amount2016": 424193.0, 
+         "amount2015": 400000.0, 
+         "name": "Council District 1", 
+         "change": 0.0604825
+        }
+       ], 
+       "name": "City Council District 1", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 424193.0, 
+         "amount2015": 400000.0, 
+         "name": "Council District 2", 
+         "change": 0.0604825
+        }
+       ], 
+       "name": "City Council District 2", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 424193.0, 
+         "amount2015": 166666.0, 
+         "name": "Council District 3", 
+         "change": 1.5451681807
+        }
+       ], 
+       "name": "City Council District 3", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 424193.0, 
+         "amount2015": 400000.0, 
+         "name": "Council District 4", 
+         "change": 0.0604825
+        }
+       ], 
+       "name": "City Council District 4", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 424193.0, 
+         "amount2015": 400000.0, 
+         "name": "Council District 5", 
+         "change": 0.0604825
+        }
+       ], 
+       "name": "City Council District 5", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 424193.0, 
+         "amount2015": 166667.0, 
+         "name": "Council District 6", 
+         "change": 1.5451529097
+        }
+       ], 
+       "name": "City Council District 6", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 424193.0, 
+         "amount2015": 166665.0, 
+         "name": "Council District 7", 
+         "change": 1.5451834518
+        }
+       ], 
+       "name": "City Council District 7", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 424193.0, 
+         "amount2015": 166666.0, 
+         "name": "Council District 8", 
+         "change": 1.5451681807
+        }
+       ], 
+       "name": "City Council District 8", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 446281.0, 
+         "amount2015": null, 
+         "name": "Independent Budget Analyst", 
+         "change": null
+        }
+       ], 
+       "name": "Independent Budget Analyst Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 581313.0, 
+         "amount2015": 655336.0, 
+         "name": "Office of the City Auditor", 
+         "change": -0.1129542708
+        }
+       ], 
+       "name": "Office of the City Auditor Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 1164480.0, 
+         "amount2015": 939999.0, 
+         "name": "Mayor", 
+         "change": 0.2388098285
+        }
+       ], 
+       "name": "Office of the Mayor", 
+       "desc": ""
+      }, 
+      {
+       "name": "Other", 
+       "children": [
+        {
+         "name": "Elections", 
+         "children": [
+          {
+           "amount2016": null, 
+           "amount2015": 933332.0, 
+           "name": "City-wide Elections", 
+           "change": null
+          }
+         ]
+        }, 
+        {
+         "name": "Mayor Council Operations Division", 
+         "children": [
+          {
+           "amount2016": 0.0, 
+           "amount2015": 0.0, 
+           "name": "Council Operations", 
+           "change": null
+          }
+         ]
+        }
+       ]
+      }
+     ], 
+     "name": "Mayor/Council", 
+     "desc": "The Mayor and City Council consists of the Mayor and eight Councilmembers and acts as the\npolicy-making body for the City of Sacramento. The goal of the Council is to govern the City in a\nmanner that is both responsive to the needs and concerns of the City residents and is financially\nsound. To accomplish this, the Mayor and Council pass City ordinances, establish policy for\nadministrative staff by resolution, approve new programs, and adopt the annual budget. The Mayor\nand Council also act as the Commission for the Housing Authority. In addition, Councilmembers are\nappointed by the Mayor to serve on various regional boards, commissions, and joint powers\nauthorities as representatives of the City."
+    }, 
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "amount2016": -15661360.0, 
+         "amount2015": -14873700.0, 
+         "name": "Non-Department DeptID", 
+         "change": 0.0529565609
+        }
+       ], 
+       "name": "Non-Appropriated Division", 
+       "desc": ""
+      }, 
+      {
+       "name": "Other", 
+       "children": []
+      }
+     ], 
+     "name": "Non-Appropriated", 
+     "desc": ""
+    }, 
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "amount2016": 5182043.0, 
+         "amount2015": 5717041.0, 
+         "name": "4th R", 
+         "change": -0.0935795283
+        }
+       ], 
+       "name": "4th R Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 906329.0, 
+         "amount2015": 830033.0, 
+         "name": "Fiscal and Management Services", 
+         "change": 0.0919192369
+        }, 
+        {
+         "amount2016": 189761.0, 
+         "amount2015": 184320.0, 
+         "name": "Golf Admin", 
+         "change": 0.0295193142
+        }, 
+        {
+         "amount2016": 516057.0, 
+         "amount2015": 486836.0, 
+         "name": "Technology Service", 
+         "change": 0.0600222662
+        }, 
+        {
+         "amount2016": 50196.0, 
+         "amount2015": 37555.0, 
+         "name": "Wm. Land Park Golf Course", 
+         "change": 0.3365996538
+        }
+       ], 
+       "name": "Administrative Services Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 214574.0, 
+         "amount2015": 190536.0, 
+         "name": "Historic City Cemetery", 
+         "change": 0.1261598858
+        }, 
+        {
+         "amount2016": 11762224.0, 
+         "amount2015": 11691758.0, 
+         "name": "Park Operations Administration", 
+         "change": 0.0060269807
+        }
+       ], 
+       "name": "Park Operations Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 400820.0, 
+         "amount2015": 384590.0, 
+         "name": "Access Leisure", 
+         "change": 0.0422007853
+        }, 
+        {
+         "amount2016": 1281962.0, 
+         "amount2015": 1325452.0, 
+         "name": "Aquatics", 
+         "change": -0.0328114485
+        }, 
+        {
+         "amount2016": 618388.0, 
+         "amount2015": 458153.0, 
+         "name": "Camp Sacramento", 
+         "change": 0.3497412436
+        }, 
+        {
+         "amount2016": 12265.0, 
+         "amount2015": 12265.0, 
+         "name": "Children's Services", 
+         "change": 0.0
+        }, 
+        {
+         "amount2016": 2402689.0, 
+         "amount2015": 2345554.0, 
+         "name": "Community Centers", 
+         "change": 0.0243588508
+        }, 
+        {
+         "amount2016": 664113.0, 
+         "amount2015": 327243.0, 
+         "name": "Community Recreation Services", 
+         "change": 1.0294185055
+        }, 
+        {
+         "amount2016": null, 
+         "amount2015": 0.0, 
+         "name": "Cover The Kids", 
+         "change": null
+        }, 
+        {
+         "amount2016": 0.0, 
+         "amount2015": 81389.0, 
+         "name": "Crossing Guards", 
+         "change": -1.0
+        }, 
+        {
+         "amount2016": 1054052.0, 
+         "amount2015": 1258387.0, 
+         "name": "Older Adult Services", 
+         "change": -0.1623785052
+        }, 
+        {
+         "amount2016": 760599.0, 
+         "amount2015": 719015.0, 
+         "name": "Park Safety Services", 
+         "change": 0.0578346766
+        }, 
+        {
+         "amount2016": 1223010.0, 
+         "amount2015": null, 
+         "name": "Permitting and Events", 
+         "change": null
+        }, 
+        {
+         "amount2016": -198814.0, 
+         "amount2015": 655972.0, 
+         "name": "Recreation Administration", 
+         "change": -1.3030830584
+        }, 
+        {
+         "amount2016": 815837.0, 
+         "amount2015": 760661.0, 
+         "name": "Teen Services", 
+         "change": 0.072536912
+        }, 
+        {
+         "amount2016": 805799.0, 
+         "amount2015": 692733.0, 
+         "name": "Youth Employment Services", 
+         "change": 0.1632172857
+        }
+       ], 
+       "name": "Recreation Operations Division", 
+       "desc": ""
+      }, 
+      {
+       "children": [
+        {
+         "amount2016": 2180813.0, 
+         "amount2015": 4929780.0, 
+         "name": "START", 
+         "change": -0.557624681
+        }
+       ], 
+       "name": "START Division", 
+       "desc": "The START program provides free before and after school programs at 33 schools. The program offers\nacademic support, nutrition, physical activity, science, youth development, arts, and provides a safe\nand caring environment for the students. The program is funded through grants and contracts with local\nschool districts. These before- and after-school programs support and reinforce the efforts of schools,\nwhile enriching the lives of students."
+      }, 
+      {
+       "name": "Other", 
+       "children": [
+        {
+         "name": "Neighborhood Services Division", 
+         "children": [
+          {
+           "amount2016": 680150.0, 
+           "amount2015": 1787819.0, 
+           "name": "Neighborhood Services", 
+           "change": -0.6195643966
+          }
+         ]
+        }, 
+        {
+         "name": "Park Planning and Development Division", 
+         "children": [
+          {
+           "amount2016": -21769.0, 
+           "amount2015": -50070.0, 
+           "name": "Park Development Services", 
+           "change": -0.5652286798
+          }
+         ]
+        }
+       ]
+      }
+     ], 
+     "name": "Parks and Recreation", 
+     "desc": "Sacramento\u2019s parks and recreation system provides the City of Sacramento\u2019s residents and visitors\nwith significant personal, social, environmental, and economic benefits. Directed by the City Council\nthrough the approval of the Parks and Recreation Master Plan, program development and service\ndelivery for the Parks and Recreation Department are guided by the following primary themes: Protecting the City\u2019s green infrastructure;  Optimizing the experience of living through people, parks, and programs. The many unique physical assets and programs of the parks and recreation system form the green and social \u201cinfrastructure\u201d of a vital, sustainable city."
+    }
+   ]
   }
  ]
 }
