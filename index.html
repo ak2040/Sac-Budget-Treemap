@@ -14,6 +14,7 @@ body {
   height: 500px;
   margin: 1px auto;
   position: relative;
+  pointer-events: all;
 }
 
 #chart2 {
@@ -31,7 +32,7 @@ body {
 }
 
 text {
-  pointer-events: none;
+  pointer-events: all;
 }
 
 
@@ -93,7 +94,6 @@ rect.parent,
 
 .legend text {
   text-anchor: middle;
-  pointer-events: auto;
   font-size: 13px;
   font-family: sans-serif;
   fill: black;
@@ -109,7 +109,7 @@ div.tooltip {
   position: absolute;           
   text-align: center;    
   width: 500px;                  
-  height: 275px;
+  height: 27	5px;
   line-height: 18px;               
   padding: 2px;             
   font-size: 14px;
@@ -139,6 +139,7 @@ div.tooltip {
 <script>
 
 var dollarformat = d3.format("$0,000")
+var pctformat = d3.format("00.0%")
 
 var margin = {top: 40, right: 0, bottom: 0, left: 0},
     width = 960,
@@ -167,58 +168,7 @@ var treemap = d3.layout.treemap()
     .sort(function(a, b) { console.log(a.amount2016); return a.amount2016 - b.amount2016; })
     .ratio(height / width * 0.5 * (1 + Math.sqrt(5)))
     .round(false);
-
-var svg = d3.select("#chart").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.bottom + margin.top)
-    .style("margin-left", -margin.left + "px")
-    .style("margin.right", -margin.right + "px")
-  .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-    .style("shape-rendering", "crispEdges");
 	
-var div = d3.select("#chart").append("div")   
-    .attr("class", "tooltip")               
-    .style("opacity", 0);
-
-var grandparent = svg.append("g")
-    .attr("class", "grandparent");
-
-grandparent.append("rect")
-    .attr("y", -margin.top)
-    .attr("width", width)
-    .attr("height", margin.top);
-
-grandparent.append("text")
-    .attr("x", 6)
-    .attr("y", 10 - margin.top)
-    .attr("dy", ".75em");
-	
-//////////////////
-/// Second chart 
-//////////////////
-var lgsize=100
-var smsize=50
-var svg2 = d3.select("#chart2").append("svg")
-    .attr("width", 960)
-    .attr("height", 200)
-    .style("margin-left", -margin.left + "px")
-    .style("margin.right", -margin.right + "px")
-  .append("g")
-    .style("shape-rendering", "crispEdges")
-	.append("rect")
-		.attr("width", lgsize)
-		.attr("height", lgsize)
-		.attr("fill", "#d9d9d9")
-		.style("stroke-width", 0);
-
-var smallbox = d3.select("#chart2").select("g")
-		.append("rect")
-			.attr("width", smsize)
-			.attr("height", smsize)
-			.attr("fill", "#d73027")
-			.style("stroke-width", 0);
-
 /////////////
 /// LEGEND //
 /////////////
@@ -253,6 +203,39 @@ legend.append("text")
         .attr('x', function(d){return margin.left + d * 40 + 20});
 		
 /// END LEGEND ///
+
+var svg = d3.select("#chart").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.bottom + margin.top)
+    .style("margin-left", -margin.left + "px")
+    .style("margin.right", -margin.right + "px")
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+    .style("shape-rendering", "crispEdges");
+	
+var div = d3.select("#chart").append("div")   
+    .attr("class", "tooltip")               
+    .style("opacity", 0);
+
+var grandparent = svg.append("g")
+    .attr("class", "grandparent");
+
+grandparent.append("rect")
+    .attr("y", -margin.top)
+    .attr("width", width)
+    .attr("height", margin.top);
+
+grandparent.append("text")
+    .attr("x", 6)
+    .attr("y", 10 - margin.top)
+    .attr("dy", ".75em");
+	
+//////////////////
+/// Second chart 
+//////////////////
+var lgsize=100
+var smsize=50
+
 
 d3.json("data/sacbudget_v2.json", function(root) {
   initialize(root);
@@ -315,9 +298,6 @@ d3.json("data/sacbudget_v2.json", function(root) {
     //var data=d._children.filter(function(d) { return d.amount2016 >= 20000000; });		  
 	  
 	//added for small box
-	smallbox.transition().duration(750)
-		.attr("width", d.amount2016/849969546*lgsize)
-		.attr("height", d.amount2016/849969546*lgsize)
 	  
     grandparent
         .datum(d.parent)
@@ -338,7 +318,7 @@ d3.json("data/sacbudget_v2.json", function(root) {
         .on("click", transition_in);
 
 //
-
+	
     g.append("rect")
         .attr("class", "parent")
         .call(rect)
@@ -346,9 +326,9 @@ d3.json("data/sacbudget_v2.json", function(root) {
 	    .on("mouseover", function(d) {
 	      div.transition().duration(50)
 	      .style("opacity", 1)
-	      div.html("<br/>"+d.name + "<br/> <br/>" + "Budget 2015/16 :    " + dollarformat(d.amount2016) + " <br/> Budget 2014/15: " + dollarformat(d.amount2015) +"<br/> <br/> <br/>"+(d.desc!=null ? d.desc : ""))
-	      .style("left", (d3.event.pageX - 175) + "px")
-	      .style("top", (d3.event.pageY - 50) + "px");
+	      div.html("<br/>"+d.name + "<br/> <br/>" + "Budget 2015/16  :     " + dollarformat(d.amount2016) + " <br/>Budget 2014/15  :     " + dollarformat(d.amount2015) +"<br/> <br/>"+(d.desc!=null ? d.desc : ""))
+	      .style("left", Math.max(Math.min((d3.event.pageX - 350),430),20) + "px")
+	      .style("top", Math.min((d3.event.pageY-70),200) + "px");
 	    })
 	    .on("mouseout", function() {
 	      div.transition().duration(50)
@@ -356,7 +336,8 @@ d3.json("data/sacbudget_v2.json", function(root) {
 	    })
       .append("title")
         .text(function(d) { return formatNumber(d.amount2016); });
-
+		
+		
     g.append("foreignObject")
 		.call(rect)
 		.attr("class","foreignobj")
@@ -364,6 +345,7 @@ d3.json("data/sacbudget_v2.json", function(root) {
         .attr("dy", ".75em")
         .html(function(d) { return d.name + ": " + dollarformat(d.amount2016); })
 		.attr("class","textdiv"); //textdiv class allows us to style the text easily with CSS
+	
 
     function transition_in(d) {
       if (transitioning || !d) return;
