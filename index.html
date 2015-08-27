@@ -319,11 +319,7 @@ d3.json("data/sacbudget_v2.json", function(root) {
 
 //
 	
-    g.append("rect")
-        .attr("class", "parent")
-        .call(rect)
-	    //Adding mouseevents
-	    .on("mouseover", function(d) {
+	   g.on("mouseover", function(d) {
 	      div.transition().duration(50)
 	      .style("opacity", 1)
 	      div.html("<br/>"+d.name + "<br/> <br/>" + "Budget 2015/16  :     " + dollarformat(d.amount2016) + " <br/>Budget 2014/15  :     " + dollarformat(d.amount2015) +"<br/> <br/>"+(d.desc!=null ? d.desc : ""))
@@ -334,6 +330,9 @@ d3.json("data/sacbudget_v2.json", function(root) {
 	      div.transition().duration(50)
 	      .style("opacity", 0);
 	    })
+    g.append("rect")
+        .attr("class", "parent")
+        .call(rect)
       .append("title")
         .text(function(d) { return formatNumber(d.amount2016); });
 		
