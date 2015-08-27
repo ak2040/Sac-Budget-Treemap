@@ -225,12 +225,7 @@ grandparent.append("text")
     .attr("y", 10 - margin.top)
     .attr("dy", ".75em");
 	
-grandparent.append("text")
-	.attr('font-family', 'FontAwesome')
-	.attr("class", "svg-icon")
-    .attr("x", 915)
-    .attr("y", 25 - margin.top)
-	.text("\uF106");
+
 	
 //////////////////
 /// Second chart 
@@ -352,6 +347,16 @@ d3.json("data/sacbudget_v2.json", function(root) {
       if (transitioning || !d) return;
       transitioning = true;
 	  
+	  arrow=grandparent.append("text")		// append arrow
+	  	.attr('font-family', 'FontAwesome')
+	  	.attr("class", "svg-icon")
+	      .attr("x", 915)
+	      .attr("y", 25 - margin.top)
+	  	.text("\uF106")
+	  	.style("opacity", 0);
+	  arrow.transition().duration(500)		// fade in arrow
+		.style("opacity", 1)
+	  
 	  g.selectAll(".child")
 	      .data(function(d) { return d.parent._children || [d]; })
 	    .enter().append("rect")
@@ -440,7 +445,7 @@ d3.json("data/sacbudget_v2.json", function(root) {
        .attr("y", function(d) { return y(d.y); })
        .attr("width", function(d) { return x(d.x + d.dx) - x(d.x); })
 	   .attr("height", function(d) { return y(d.y + d.dy) - y(d.y); })
-	   .attr("fill", function(d){return (parseFloat(d.amount2016)/parseFloat(d.amount2015)-1)*100==Infinity ? color(0) : color((parseFloat(d.amount2016)/parseFloat(d.amount2015)-1)*100);});
+	   .attr("fill", function(d){return isNaN((parseFloat(d.amount2016)/parseFloat(d.amount2015)-1)*100) ? color(0) : color((parseFloat(d.amount2016)/parseFloat(d.amount2015)-1)*100);});
   }
   
   
