@@ -40,13 +40,7 @@ text {
   font-weight: bold;
   font-size: 22px;
 }
-
-/*
-rect {
-  stroke: #fff;
-  stroke-width: 1px;
-}
-*/
+  
 rect {
   stroke: #fff;
   stroke-width: 1.5px;
@@ -135,6 +129,7 @@ div.tooltip {
 	
 <aside></aside>
 
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
@@ -229,6 +224,13 @@ grandparent.append("text")
     .attr("x", 6)
     .attr("y", 10 - margin.top)
     .attr("dy", ".75em");
+	
+grandparent.append("text")
+	.attr('font-family', 'FontAwesome')
+	.attr("class", "svg-icon")
+    .attr("x", 915)
+    .attr("y", 25 - margin.top)
+	.text("\uF106");
 	
 //////////////////
 /// Second chart 
