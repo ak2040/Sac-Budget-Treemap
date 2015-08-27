@@ -124,10 +124,10 @@ div.tooltip {
 
 <h3 style="font-weight: bold"><center></center></h3>
 <p style="width: 960px"><center> Change From Previous Year (%) </center></p>
-<div id="legend"></div>
-<p id="chart2">
-	
-<aside></aside>
+<div id="legend"></div>	
+<p> Source: City of Sacramento Open Data Portal; City of Sacramento Proposed Budget, FY 2015/16</p>
+<p> Note: Descriptions are as they appear in City of Sacramento Proposed Budget, FY 2015/16.</p>	
+<p> <b> By Andrew King and Code4Sac <b/></p>
 
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <script src="http://d3js.org/d3.v3.min.js"></script>
@@ -320,7 +320,7 @@ d3.json("data/sacbudget_v2.json", function(root) {
 	      div.transition().duration(50)
 	      .style("opacity", 1)
 		  .style("height", (d.desc!=null ? (Math.ceil(d.desc.length/75)*19+107) + "px" : "107px"))
-	      div.html("<br/>"+d.name + "<br/> <br/>" + "Budget 2015/16  :     " + dollarformat(d.amount2016) + " <br/>Budget 2014/15  :     " + dollarformat(d.amount2015) +"<br/> <br/>"+(d.desc!=null ? d.desc : ""))
+	      div.html("<br/>"+d.name + "<br/> <br/>" + "2015/16 (Proposed) :     " + dollarformat(d.amount2016) + " <br/> 2014/15 (Actual) :     " + dollarformat(d.amount2015) +"<br/> <br/>"+(d.desc!=null ? d.desc : ""))
 	      .style("left", Math.max(Math.min((d3.event.pageX - 350),430),20) + "px")
 		  .style("top", Math.min((d3.event.pageY-70),200) + "px");
 	    })
