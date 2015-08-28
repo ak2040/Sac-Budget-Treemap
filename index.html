@@ -9,24 +9,24 @@ body {
   font-weight: bold;
 }
 
+#footer {
+    text-align: left;
+    padding: 0px;
+	font-size: 11px;
+	line-height: 0%; 
+}
+
 #chart {
   width: 960px;
-  height: 500px;
+  height: 460px;
   margin: 1px auto;
   position: relative;
   pointer-events: all;
 }
 
-#chart2 {
-  width: 960px;
-  height: 400px;
-  margin: 0px auto;
-  position: relative;
-}
-
 #legend {
     width: 960px;
-    height: 200px;
+    height: 20px;
     margin: 25px auto;
     position: relative;
 }
@@ -35,6 +35,12 @@ text {
   pointer-events: all;
 }
 
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
 
 .grandparent text {
   font-weight: bold;
@@ -124,11 +130,13 @@ div.tooltip {
 
 <h3 style="font-weight: bold"><center></center></h3>
 <p style="width: 960px"><center> Change From Previous Year (%) </center></p>
-<div id="legend"></div>	
-<p> Source: City of Sacramento Open Data Portal; City of Sacramento Proposed Budget, FY 2015/16</p>
-<p> Note: Descriptions are as they appear in City of Sacramento Proposed Budget, FY 2015/16.</p>	
-<p> <b> By Andrew King and Code4Sac <b/></p>
-
+<div id="legend"></div>
+<div id="footer">	
+<p class="alignleft"> Source: City of Sacramento Open Data Portal, Proposed Budget, FY 2015/16 </p>
+<p class="alignright"> by Andrew King and Code4Sac </p>
+<div style="clear: both;"></div>
+<p class="alignleft"> Note: Department descriptions as they appear in the Proposed Budget, FY 2015/16.</p>	
+</div>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
